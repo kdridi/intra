@@ -11,10 +11,18 @@ import static eu.epitech.intra.commons.IntraCourse.SAMSUNG_WAC;
 import static eu.epitech.intra.commons.IntraCourse.WEBACADEMIE;
 import static eu.epitech.intra.commons.IntraLocation.FRANCE;
 import static eu.epitech.intra.commons.IntraLocation.FRANCE_PARIS;
+
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
+
 import net.sf.json.JSON;
 import net.sf.json.JSONArray;
 import net.sf.json.JSONObject;
-import eu.epitech.intra.builders.AnnuelInstanceIntraURLBuilder;
 import eu.epitech.intra.builders.CourseACLIntraURLBuilder;
 import eu.epitech.intra.builders.CourseFilterIntraURLBuilder;
 import eu.epitech.intra.builders.ModuleBoardIntraURLBuilder;
@@ -50,45 +58,61 @@ public class App {
 			// builder.addScolarYear(2013);
 			builder.addScolarYear(2014);
 
+			final ExecutorService service = Executors.newFixedThreadPool(10);
+			final Map<JSONObject, Future<JSONArray>> futures = new HashMap<>();
 			final JSONArray json = HttpClientHelper.getJSONArray(builder);
 			for (int index = 0; index < json.size(); index++) {
-				System.out.println(String.format("%d/%d", index + 1, json.size()));
-				JSONObject object = json.getJSONObject(index);
+				final String message = String.format("%d/%d", index + 1, json.size());
+				final JSONObject object = json.getJSONObject(index);
+				final Future<JSONArray> future = service.submit(new Callable<JSONArray>() {
+					@Override
+					public JSONArray call() throws Exception {
+						final String scolarYear = Integer.valueOf(object.getInt("scolaryear")).toString();
+						final String code = object.getString("code");
+						final String codeInstance = object.getString("codeinstance");
 
-				final String scolarYear = Integer.valueOf(object.getInt("scolaryear")).toString();
-				final String code = object.getString("code");
-				final String codeInstance = object.getString("codeinstance");
-				final String instanceLocation = object.getString("instance_location");
-
-				final CourseACLIntraURLBuilder aclBuilder = CourseACLIntraURLBuilder.newBuilder(scolarYear, code, codeInstance);
-				try {
-					final JSONArray acl = HttpClientHelper.getJSONArray(aclBuilder);
-					for (int i = 0; i < acl.size(); i++) {
-						JSONObject o = acl.getJSONObject(i);
-						final String name = o.getString("name");
-						if (name.startsWith("Pays")) {
-						} else if (name.startsWith("Ville")) {
-						} else if (name.startsWith("ACL")) {
-							object.put("acl", o.getJSONArray("members"));
-						} else {
+						final ThreadLocal<JSONArray> result = new ThreadLocal<>();
+						try {
+							result.set(fetchMembers(CourseACLIntraURLBuilder.newBuilder(scolarYear, code, codeInstance)));
+						} catch (Exception e) {
+							final String title = object.getString("title");
+							System.err.println(title);
+							System.err.println(String.format("https://intra.epitech.eu/module/%s/%s/%s/#!/all", scolarYear, code, codeInstance));
 						}
-					}
-				} catch (Exception e) {
-					final String title = object.getString("title");
-					System.err.println(title);
-					System.err.println(String.format("https://intra.epitech.eu/module/%s/%s/%s/#!/all", scolarYear, code, codeInstance));
-				}
 
-				final AnnuelInstanceIntraURLBuilder annuelBuilder = AnnuelInstanceIntraURLBuilder.newBuilder(scolarYear, code, instanceLocation);
-				try {
-					// final JSON annuel = HttpClientHelper.getJSONArray(annuelBuilder);
-					// object.put("annuel", annuel);
-				} catch (Exception e) {
-					final String title = object.getString("title");
-					System.err.println(title);
-					System.err.println(String.format("https://intra.epitech.eu/module/%s/%s/%s/#!/all", scolarYear, code, codeInstance));
+						System.out.println(message);
+
+						return result.get();
+					}
+
+					private JSONArray fetchMembers(final CourseACLIntraURLBuilder builder) {
+						final ThreadLocal<JSONArray> result = new ThreadLocal<>();
+						final JSONArray array = HttpClientHelper.getJSONArray(builder);
+						for (int index = 0; index < array.size(); index++) {
+							JSONObject object = array.getJSONObject(index);
+							final String name = object.getString("name");
+							if (name.startsWith("Pays")) {
+							} else if (name.startsWith("Ville")) {
+							} else if (name.startsWith("ACL")) {
+								result.set(object.getJSONArray("members"));
+							} else {
+							}
+						}
+						return result.get();
+					}
+				});
+				futures.put(object, future);
+			}
+
+			for (Entry<JSONObject, Future<JSONArray>> entry : futures.entrySet()) {
+				final JSONObject object = entry.getKey();
+				final JSONArray members = entry.getValue().get();
+				if (members != null) {
+					object.put("acl", members);
 				}
 			}
+			service.shutdown();
+
 			System.out.println(json.toString(4));
 		}
 		if (execute) {
@@ -107,4 +131,5 @@ public class App {
 			System.out.println(json.toString(4));
 		}
 	}
+
 }
