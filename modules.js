@@ -34,15 +34,15 @@
         "name": "career-development-center",
         "title": "Career Development Center",
         "picture": null,
-        "visible": 1,
-        "force_note": 1,
-        "edit_rights": 1,
         "force_register": 1,
         "invite_ass": 1,
         "assistant": 1,
         "generate_token": 1,
         "prof_inst": 1,
-        "planify": 1
+        "planify": 1,
+        "visible": 1,
+        "force_note": 1,
+        "edit_rights": 1
     }]
 }, {
     "id": 10858,
@@ -80,14 +80,14 @@
         "name": "dridi_e",
         "title": "Karim Dridi",
         "picture": null,
-        "prof_inst": 1,
-        "force_note": 1,
-        "generate_token": 1,
         "edit_rights": 1,
         "visible": 1,
         "force_register": 1,
         "planify": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "prof_inst": 1,
+        "force_note": 1,
+        "generate_token": 1
     }]
 }, {
     "id": 10859,
@@ -125,14 +125,14 @@
         "name": "dridi_e",
         "title": "Karim Dridi",
         "picture": null,
-        "edit_rights": 1,
-        "visible": 1,
-        "force_register": 1,
         "planify": 1,
         "invite_ass": 1,
         "prof_inst": 1,
         "force_note": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "edit_rights": 1,
+        "visible": 1,
+        "force_register": 1
     }]
 }, {
     "id": 10865,
@@ -170,8 +170,8 @@
         "name": "dridi_e",
         "title": "Karim Dridi",
         "picture": null,
-        "prof_inst": 1,
-        "visible": 1
+        "visible": 1,
+        "prof_inst": 1
     }]
 }, {
     "id": 11134,
@@ -214,9 +214,9 @@
         "name": "DPRA",
         "title": "DPRA",
         "picture": null,
+        "prof_inst": 1,
         "visible": 1,
-        "force_register": 1,
-        "prof_inst": 1
+        "force_register": 1
     }]
 }, {
     "id": 10987,
@@ -254,19 +254,19 @@
         "name": "DPR",
         "title": "DPR",
         "picture": null,
-        "visible": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "visible": 1
     }, {
         "type": "group",
         "login": "innovation-hub",
         "name": "innovation-hub",
         "title": "Innovation-Hub",
         "picture": null,
-        "edit_rights": 1,
-        "force_note": 1,
         "visible": 1,
+        "force_note": 1,
         "force_register": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "edit_rights": 1
     }]
 }, {
     "id": 10545,
@@ -466,10 +466,10 @@
         "name": "mandal_m",
         "title": "Melanie Mandala",
         "picture": "https://cdn.local.epitech.eu/userprofil/mandal_m.bmp",
-        "visible": 1,
-        "prof_inst": 1,
         "planify": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "visible": 1,
+        "prof_inst": 1
     }]
 }, {
     "id": 10135,
@@ -507,20 +507,20 @@
         "name": "zachar_f",
         "title": "Franck Zacharias",
         "picture": "https://cdn.local.epitech.eu/userprofil/zachar_f.bmp",
-        "edit_rights": 1,
         "visible": 1,
         "prof_inst": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "edit_rights": 1
     }, {
         "type": "user",
         "login": "mandal_m",
         "name": "mandal_m",
         "title": "Melanie Mandala",
         "picture": "https://cdn.local.epitech.eu/userprofil/mandal_m.bmp",
-        "visible": 1,
-        "prof_inst": 1,
         "invite_ass": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "visible": 1,
+        "prof_inst": 1
     }]
 }, {
     "id": 10604,
@@ -548,7 +548,7 @@
         "invite_ass",
         "edit_rights"
     ],
-    "waiting_grades": "1429",
+    "waiting_grades": "1430",
     "active_promo": null,
     "open": "1",
     "title": "S0 - Conférences",
@@ -558,23 +558,23 @@
         "name": "career-development-center",
         "title": "Career Development Center",
         "picture": null,
-        "planify": 1,
-        "prof_inst": 1,
+        "visible": 1,
         "force_note": 1,
         "edit_rights": 1,
-        "visible": 1,
         "force_register": 1,
         "invite_ass": 1,
         "assistant": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "prof_inst": 1,
+        "planify": 1
     }, {
         "type": "user",
         "login": "lods_r",
         "name": "lods_r",
         "title": "Romain Lods",
         "picture": null,
-        "visible": 1,
-        "force_register": 1
+        "force_register": 1,
+        "visible": 1
     }]
 }, {
     "id": 11148,
@@ -612,14 +612,14 @@
         "name": "hoarau_h",
         "title": "Benjamin1 Hoarau",
         "picture": null,
-        "prof_inst": 1,
-        "force_note": 1,
-        "generate_token": 1,
         "edit_rights": 1,
         "visible": 1,
         "force_register": 1,
         "planify": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "prof_inst": 1,
+        "force_note": 1,
+        "generate_token": 1
     }]
 }, {
     "id": 11178,
@@ -684,19 +684,19 @@
         "name": "DPR",
         "title": "DPR",
         "picture": null,
+        "edit_rights": 1,
         "visible": 1,
         "force_register": 1,
-        "edit_rights": 1,
-        "prof_inst": 1,
-        "force_note": 1
+        "force_note": 1,
+        "prof_inst": 1
     }, {
         "type": "group",
         "login": "DPRA",
         "name": "DPRA",
         "title": "DPRA",
         "picture": null,
-        "prof_inst": 1,
         "force_note": 1,
+        "prof_inst": 1,
         "visible": 1,
         "force_register": 1
     }]
@@ -726,7 +726,7 @@
         "invite_ass",
         "edit_rights"
     ],
-    "waiting_grades": "1019",
+    "waiting_grades": "1020",
     "active_promo": null,
     "open": "1",
     "title": "S0 - Sport",
@@ -757,7 +757,7 @@
         "invite_ass",
         "edit_rights"
     ],
-    "waiting_grades": "413",
+    "waiting_grades": "415",
     "active_promo": null,
     "open": "1",
     "title": "S0 - Tek a job",
@@ -767,14 +767,14 @@
         "name": "career-development-center",
         "title": "Career Development Center",
         "picture": null,
-        "visible": 1,
-        "planify": 1,
-        "force_note": 1,
-        "edit_rights": 1,
         "force_register": 1,
         "invite_ass": 1,
         "prof_inst": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "visible": 1,
+        "planify": 1,
+        "force_note": 1,
+        "edit_rights": 1
     }]
 }, {
     "id": 10949,
@@ -802,7 +802,7 @@
         "invite_ass",
         "edit_rights"
     ],
-    "waiting_grades": "1650",
+    "waiting_grades": "1649",
     "active_promo": null,
     "open": "1",
     "title": "Un café epi c'est tout",
@@ -887,24 +887,24 @@
         "name": "pierso_e",
         "title": "Emery Pierson",
         "picture": "https://cdn.local.epitech.eu/userprofil/pierso_e.bmp",
-        "visible": 1,
-        "force_note": 1,
-        "force_register": 1,
-        "edit_rights": 1,
-        "prof_inst": 1,
-        "invite_ass": 1
-    }, {
-        "type": "user",
-        "login": "morgan_m",
-        "name": "morgan_m",
-        "title": "Melanie Morgan",
-        "picture": null,
         "prof_inst": 1,
         "invite_ass": 1,
         "visible": 1,
         "force_note": 1,
         "force_register": 1,
         "edit_rights": 1
+    }, {
+        "type": "user",
+        "login": "morgan_m",
+        "name": "morgan_m",
+        "title": "Melanie Morgan",
+        "picture": null,
+        "force_register": 1,
+        "edit_rights": 1,
+        "prof_inst": 1,
+        "invite_ass": 1,
+        "visible": 1,
+        "force_note": 1
     }]
 }, {
     "id": 10302,
@@ -942,8 +942,8 @@
         "name": "Astek",
         "title": "Astek",
         "picture": null,
-        "assistant": 1,
-        "visible": 1
+        "visible": 1,
+        "assistant": 1
     }, {
         "type": "user",
         "login": "serraj_b",
@@ -995,63 +995,63 @@
         "name": "dluzny_c",
         "title": "Cathy Dluzny",
         "picture": null,
-        "assistant": 1,
-        "force_register": 1,
-        "visible": 1,
-        "planify": 1
-    }, {
-        "type": "user",
-        "login": "sebast_c",
-        "name": "sebast_c",
-        "title": "Claudia Sebastien",
-        "picture": null,
-        "force_register": 1,
-        "visible": 1,
-        "planify": 1,
-        "assistant": 1,
-        "force_note": 1
-    }, {
-        "type": "user",
-        "login": "didiot_e",
-        "name": "didiot_e",
-        "title": "Emmanuelle Didiot",
-        "picture": "https://cdn.local.epitech.eu/userprofil/didiot_e.bmp",
-        "planify": 1,
-        "assistant": 1,
-        "force_register": 1,
-        "visible": 1
-    }, {
-        "type": "user",
-        "login": "abiass_l",
-        "name": "abiass_l",
-        "title": "Laurence Abiassi",
-        "picture": null,
-        "visible": 1,
-        "force_note": 1,
-        "planify": 1,
-        "prof_inst": 1,
-        "edit_rights": 1,
-        "force_register": 1
-    }, {
-        "type": "user",
-        "login": "mandal_m",
-        "name": "mandal_m",
-        "title": "Melanie Mandala",
-        "picture": "https://cdn.local.epitech.eu/userprofil/mandal_m.bmp",
         "force_register": 1,
         "visible": 1,
         "planify": 1,
         "assistant": 1
     }, {
         "type": "user",
-        "login": "sarr_t",
-        "name": "sarr_t",
-        "title": "Stephane Sarr",
+        "login": "sebast_c",
+        "name": "sebast_c",
+        "title": "Claudia Sebastien",
         "picture": null,
+        "visible": 1,
+        "planify": 1,
+        "assistant": 1,
+        "force_note": 1,
+        "force_register": 1
+    }, {
+        "type": "user",
+        "login": "didiot_e",
+        "name": "didiot_e",
+        "title": "Emmanuelle Didiot",
+        "picture": "https://cdn.local.epitech.eu/userprofil/didiot_e.bmp",
+        "force_register": 1,
+        "visible": 1,
+        "planify": 1,
+        "assistant": 1
+    }, {
+        "type": "user",
+        "login": "abiass_l",
+        "name": "abiass_l",
+        "title": "Laurence Abiassi",
+        "picture": null,
+        "planify": 1,
+        "prof_inst": 1,
+        "edit_rights": 1,
+        "force_register": 1,
+        "visible": 1,
+        "force_note": 1
+    }, {
+        "type": "user",
+        "login": "mandal_m",
+        "name": "mandal_m",
+        "title": "Melanie Mandala",
+        "picture": "https://cdn.local.epitech.eu/userprofil/mandal_m.bmp",
         "planify": 1,
         "assistant": 1,
         "force_register": 1,
         "visible": 1
+    }, {
+        "type": "user",
+        "login": "sarr_t",
+        "name": "sarr_t",
+        "title": "Stephane Sarr",
+        "picture": null,
+        "force_register": 1,
+        "visible": 1,
+        "planify": 1,
+        "assistant": 1
     }]
 }, {
     "id": 9943,
@@ -1108,11 +1108,11 @@
         "title": "Danielle Kaminsky",
         "picture": null,
         "visible": 1,
-        "edit_rights": 1,
         "prof_inst": 1,
         "force_register": 1,
         "force_note": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "edit_rights": 1
     }, {
         "type": "user",
         "login": "gibert_j",
@@ -1122,9 +1122,9 @@
         "force_register": 1,
         "force_note": 1,
         "invite_ass": 1,
+        "edit_rights": 1,
         "visible": 1,
-        "prof_inst": 1,
-        "edit_rights": 1
+        "prof_inst": 1
     }]
 }, {
     "id": 10662,
@@ -1170,36 +1170,36 @@
         "name": "dridi_e",
         "title": "Karim Dridi",
         "picture": null,
-        "edit_rights": 1,
         "force_register": 1,
         "force_note": 1,
         "visible": 1,
         "planify": 1,
         "prof_inst": 1,
         "generate_token": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "edit_rights": 1
     }, {
         "type": "user",
         "login": "mortre_x",
         "name": "mortre_x",
         "title": "Xavier Mortreux",
         "picture": "https://cdn.local.epitech.eu/userprofil/mortre_x.bmp",
-        "prof_inst": 1,
-        "visible": 1
+        "visible": 1,
+        "prof_inst": 1
     }, {
         "type": "user",
         "login": "serraj_b",
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
+        "invite_ass": 1,
+        "edit_rights": 1,
+        "force_register": 1,
         "force_note": 1,
         "visible": 1,
         "planify": 1,
         "generate_token": 1,
-        "assistant": 1,
-        "invite_ass": 1,
-        "edit_rights": 1,
-        "force_register": 1
+        "assistant": 1
     }]
 }, {
     "id": 9991,
@@ -1237,6 +1237,19 @@
         "name": "neveu_d",
         "title": "Dominique-Renee Neveu",
         "picture": null,
+        "force_note": 1,
+        "planify": 1,
+        "generate_token": 1,
+        "invite_ass": 1,
+        "visible": 1,
+        "prof_inst": 1,
+        "force_register": 1
+    }, {
+        "type": "user",
+        "login": "cholle_a",
+        "name": "cholle_a",
+        "title": "Matthieu1 Cholley",
+        "picture": null,
         "visible": 1,
         "prof_inst": 1,
         "force_register": 1,
@@ -1244,19 +1257,6 @@
         "planify": 1,
         "generate_token": 1,
         "invite_ass": 1
-    }, {
-        "type": "user",
-        "login": "cholle_a",
-        "name": "cholle_a",
-        "title": "Matthieu1 Cholley",
-        "picture": null,
-        "planify": 1,
-        "generate_token": 1,
-        "invite_ass": 1,
-        "visible": 1,
-        "prof_inst": 1,
-        "force_register": 1,
-        "force_note": 1
     }]
 }, {
     "id": 10994,
@@ -1310,14 +1310,14 @@
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
-        "invite_ass": 1,
-        "force_note": 1,
         "generate_token": 1,
         "visible": 1,
         "edit_rights": 1,
         "prof_inst": 1,
         "force_register": 1,
-        "planify": 1
+        "planify": 1,
+        "invite_ass": 1,
+        "force_note": 1
     }]
 }, {
     "id": 10437,
@@ -1394,36 +1394,36 @@
         "name": "Astek",
         "title": "Astek",
         "picture": null,
-        "assistant": 1,
-        "visible": 1
+        "visible": 1,
+        "assistant": 1
     }, {
         "type": "user",
         "login": "amegav_s",
         "name": "amegav_s",
         "title": "Seth Amegavieledi",
         "picture": "https://cdn.local.epitech.eu/userprofil/amegav_s.bmp",
-        "edit_rights": 1,
-        "visible": 1,
-        "prof_inst": 1,
         "force_register": 1,
-        "force_note": 1,
-        "planify": 1,
-        "generate_token": 1,
-        "invite_ass": 1
-    }, {
-        "type": "user",
-        "login": "serraj_b",
-        "name": "serraj_b",
-        "title": "Younes2 Serraj",
-        "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
         "force_note": 1,
         "planify": 1,
         "generate_token": 1,
         "invite_ass": 1,
         "edit_rights": 1,
         "visible": 1,
+        "prof_inst": 1
+    }, {
+        "type": "user",
+        "login": "serraj_b",
+        "name": "serraj_b",
+        "title": "Younes2 Serraj",
+        "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
+        "invite_ass": 1,
+        "edit_rights": 1,
+        "visible": 1,
         "prof_inst": 1,
-        "force_register": 1
+        "force_register": 1,
+        "force_note": 1,
+        "planify": 1,
+        "generate_token": 1
     }]
 }, {
     "id": 11068,
@@ -1461,14 +1461,14 @@
         "name": "pierso_e",
         "title": "Emery Pierson",
         "picture": "https://cdn.local.epitech.eu/userprofil/pierso_e.bmp",
-        "edit_rights": 1,
-        "visible": 1,
-        "force_register": 1,
         "planify": 1,
         "invite_ass": 1,
         "prof_inst": 1,
         "force_note": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "edit_rights": 1,
+        "visible": 1,
+        "force_register": 1
     }]
 }, {
     "id": 10983,
@@ -1551,30 +1551,6 @@
         "name": "dasson_g",
         "title": "Gustave Dassonville",
         "picture": "https://cdn.local.epitech.eu/userprofil/dasson_g.bmp",
-        "prof_inst": 1,
-        "force_register": 1,
-        "visible": 1,
-        "assistant": 1,
-        "force_note": 1
-    }, {
-        "type": "user",
-        "login": "boivin_a",
-        "name": "boivin_a",
-        "title": "Julien1 Boivin",
-        "picture": "https://cdn.local.epitech.eu/userprofil/boivin_a.bmp",
-        "force_note": 1,
-        "invite_ass": 1,
-        "force_register": 1,
-        "edit_rights": 1,
-        "generate_token": 1,
-        "planify": 1,
-        "visible": 1
-    }, {
-        "type": "user",
-        "login": "barth_l",
-        "name": "barth_l",
-        "title": "Louis Barth",
-        "picture": "https://cdn.local.epitech.eu/userprofil/barth_l.bmp",
         "force_note": 1,
         "prof_inst": 1,
         "force_register": 1,
@@ -1582,19 +1558,43 @@
         "assistant": 1
     }, {
         "type": "user",
-        "login": "deslog_m",
-        "name": "deslog_m",
-        "title": "Mathias Desloges",
-        "picture": "https://cdn.local.epitech.eu/userprofil/deslog_m.bmp",
-        "prof_inst": 1,
+        "login": "boivin_a",
+        "name": "boivin_a",
+        "title": "Julien1 Boivin",
+        "picture": "https://cdn.local.epitech.eu/userprofil/boivin_a.bmp",
+        "generate_token": 1,
         "planify": 1,
         "visible": 1,
         "force_note": 1,
         "invite_ass": 1,
         "force_register": 1,
+        "edit_rights": 1
+    }, {
+        "type": "user",
+        "login": "barth_l",
+        "name": "barth_l",
+        "title": "Louis Barth",
+        "picture": "https://cdn.local.epitech.eu/userprofil/barth_l.bmp",
+        "prof_inst": 1,
+        "force_register": 1,
+        "visible": 1,
+        "assistant": 1,
+        "force_note": 1
+    }, {
+        "type": "user",
+        "login": "deslog_m",
+        "name": "deslog_m",
+        "title": "Mathias Desloges",
+        "picture": "https://cdn.local.epitech.eu/userprofil/deslog_m.bmp",
+        "force_note": 1,
+        "invite_ass": 1,
+        "force_register": 1,
         "edit_rights": 1,
         "assistant": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "prof_inst": 1,
+        "planify": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "prudho_m",
@@ -1616,14 +1616,14 @@
         "name": "viger_s",
         "title": "Sophie Viger",
         "picture": "https://cdn.local.epitech.eu/userprofil/viger_s.bmp",
-        "planify": 1,
-        "visible": 1,
         "assistant": 1,
         "force_note": 1,
         "invite_ass": 1,
         "prof_inst": 1,
         "force_register": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "planify": 1,
+        "visible": 1
     }]
 }, {
     "id": 11106,
@@ -1661,6 +1661,30 @@
         "name": "dasson_g",
         "title": "Gustave Dassonville",
         "picture": "https://cdn.local.epitech.eu/userprofil/dasson_g.bmp",
+        "force_note": 1,
+        "prof_inst": 1,
+        "visible": 1,
+        "assistant": 1,
+        "force_register": 1
+    }, {
+        "type": "user",
+        "login": "boivin_a",
+        "name": "boivin_a",
+        "title": "Julien1 Boivin",
+        "picture": "https://cdn.local.epitech.eu/userprofil/boivin_a.bmp",
+        "visible": 1,
+        "edit_rights": 1,
+        "force_register": 1,
+        "force_note": 1,
+        "planify": 1,
+        "generate_token": 1,
+        "invite_ass": 1
+    }, {
+        "type": "user",
+        "login": "barth_l",
+        "name": "barth_l",
+        "title": "Louis Barth",
+        "picture": "https://cdn.local.epitech.eu/userprofil/barth_l.bmp",
         "force_register": 1,
         "force_note": 1,
         "prof_inst": 1,
@@ -1668,43 +1692,19 @@
         "assistant": 1
     }, {
         "type": "user",
-        "login": "boivin_a",
-        "name": "boivin_a",
-        "title": "Julien1 Boivin",
-        "picture": "https://cdn.local.epitech.eu/userprofil/boivin_a.bmp",
-        "planify": 1,
-        "generate_token": 1,
-        "invite_ass": 1,
-        "visible": 1,
-        "edit_rights": 1,
-        "force_register": 1,
-        "force_note": 1
-    }, {
-        "type": "user",
-        "login": "barth_l",
-        "name": "barth_l",
-        "title": "Louis Barth",
-        "picture": "https://cdn.local.epitech.eu/userprofil/barth_l.bmp",
-        "prof_inst": 1,
-        "visible": 1,
-        "assistant": 1,
-        "force_register": 1,
-        "force_note": 1
-    }, {
-        "type": "user",
         "login": "deslog_m",
         "name": "deslog_m",
         "title": "Mathias Desloges",
         "picture": "https://cdn.local.epitech.eu/userprofil/deslog_m.bmp",
-        "assistant": 1,
-        "edit_rights": 1,
-        "force_register": 1,
         "force_note": 1,
         "planify": 1,
-        "prof_inst": 1,
         "generate_token": 1,
+        "prof_inst": 1,
         "invite_ass": 1,
-        "visible": 1
+        "visible": 1,
+        "edit_rights": 1,
+        "assistant": 1,
+        "force_register": 1
     }, {
         "type": "user",
         "login": "prudho_m",
@@ -1765,24 +1765,24 @@
         "name": "dasson_g",
         "title": "Gustave Dassonville",
         "picture": "https://cdn.local.epitech.eu/userprofil/dasson_g.bmp",
+        "force_note": 1,
         "prof_inst": 1,
-        "force_register": 1,
         "visible": 1,
-        "assistant": 1,
-        "force_note": 1
+        "force_register": 1,
+        "assistant": 1
     }, {
         "type": "user",
         "login": "boivin_a",
         "name": "boivin_a",
         "title": "Julien1 Boivin",
         "picture": "https://cdn.local.epitech.eu/userprofil/boivin_a.bmp",
+        "visible": 1,
         "force_note": 1,
         "invite_ass": 1,
-        "force_register": 1,
         "edit_rights": 1,
+        "force_register": 1,
         "generate_token": 1,
-        "planify": 1,
-        "visible": 1
+        "planify": 1
     }, {
         "type": "user",
         "login": "barth_l",
@@ -1791,8 +1791,8 @@
         "picture": "https://cdn.local.epitech.eu/userprofil/barth_l.bmp",
         "force_note": 1,
         "prof_inst": 1,
-        "force_register": 1,
         "visible": 1,
+        "force_register": 1,
         "assistant": 1
     }, {
         "type": "user",
@@ -1800,23 +1800,23 @@
         "name": "deslog_m",
         "title": "Mathias Desloges",
         "picture": "https://cdn.local.epitech.eu/userprofil/deslog_m.bmp",
+        "edit_rights": 1,
+        "force_register": 1,
+        "generate_token": 1,
+        "assistant": 1,
         "prof_inst": 1,
         "planify": 1,
         "visible": 1,
         "force_note": 1,
-        "invite_ass": 1,
-        "force_register": 1,
-        "edit_rights": 1,
-        "assistant": 1,
-        "generate_token": 1
+        "invite_ass": 1
     }, {
         "type": "user",
         "login": "prudho_m",
         "name": "prudho_m",
         "title": "Max Prudhomme",
         "picture": "https://cdn.local.epitech.eu/userprofil/prudho_m.bmp",
-        "visible": 1,
-        "assistant": 1
+        "assistant": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "cristi_m",
@@ -1830,14 +1830,14 @@
         "name": "viger_s",
         "title": "Sophie Viger",
         "picture": "https://cdn.local.epitech.eu/userprofil/viger_s.bmp",
+        "generate_token": 1,
         "planify": 1,
         "visible": 1,
         "assistant": 1,
         "force_note": 1,
         "invite_ass": 1,
         "prof_inst": 1,
-        "force_register": 1,
-        "generate_token": 1
+        "force_register": 1
     }]
 }, {
     "id": 11179,
@@ -1867,7 +1867,7 @@
     ],
     "waiting_grades": "0",
     "active_promo": null,
-    "open": "0",
+    "open": "1",
     "title": "S1 - Marketing & Vente",
     "acl": [{
         "type": "user",
@@ -1886,39 +1886,39 @@
         "name": "boivin_a",
         "title": "Julien1 Boivin",
         "picture": "https://cdn.local.epitech.eu/userprofil/boivin_a.bmp",
+        "visible": 1,
+        "generate_token": 1,
         "planify": 1,
         "edit_rights": 1,
         "force_note": 1,
         "invite_ass": 1,
-        "force_register": 1,
-        "visible": 1,
-        "generate_token": 1
+        "force_register": 1
     }, {
         "type": "user",
         "login": "barth_l",
         "name": "barth_l",
         "title": "Louis Barth",
         "picture": "https://cdn.local.epitech.eu/userprofil/barth_l.bmp",
-        "assistant": 1,
-        "visible": 1,
         "force_note": 1,
         "prof_inst": 1,
-        "force_register": 1
+        "force_register": 1,
+        "assistant": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "deslog_m",
         "name": "deslog_m",
         "title": "Mathias Desloges",
         "picture": "https://cdn.local.epitech.eu/userprofil/deslog_m.bmp",
+        "edit_rights": 1,
         "force_note": 1,
         "invite_ass": 1,
         "force_register": 1,
         "visible": 1,
-        "assistant": 1,
         "generate_token": 1,
+        "assistant": 1,
         "prof_inst": 1,
-        "planify": 1,
-        "edit_rights": 1
+        "planify": 1
     }, {
         "type": "user",
         "login": "prudho_m",
@@ -1933,15 +1933,15 @@
         "name": "viger_s",
         "title": "Sophie Viger",
         "picture": "https://cdn.local.epitech.eu/userprofil/viger_s.bmp",
+        "assistant": 1,
+        "force_note": 1,
+        "invite_ass": 1,
         "prof_inst": 1,
         "force_register": 1,
         "visible": 1,
         "generate_token": 1,
         "planify": 1,
-        "edit_rights": 1,
-        "assistant": 1,
-        "force_note": 1,
-        "invite_ass": 1
+        "edit_rights": 1
     }]
 }, {
     "id": 11102,
@@ -1979,59 +1979,59 @@
         "name": "dasson_g",
         "title": "Gustave Dassonville",
         "picture": "https://cdn.local.epitech.eu/userprofil/dasson_g.bmp",
-        "invite_ass": 1,
         "force_note": 1,
         "prof_inst": 1,
         "visible": 1,
         "force_register": 1,
-        "assistant": 1
+        "assistant": 1,
+        "invite_ass": 1
     }, {
         "type": "user",
         "login": "boivin_a",
         "name": "boivin_a",
         "title": "Julien1 Boivin",
         "picture": "https://cdn.local.epitech.eu/userprofil/boivin_a.bmp",
-        "generate_token": 1,
-        "invite_ass": 1,
-        "planify": 1,
         "edit_rights": 1,
         "visible": 1,
         "force_note": 1,
-        "force_register": 1
+        "force_register": 1,
+        "generate_token": 1,
+        "invite_ass": 1,
+        "planify": 1
     }, {
         "type": "user",
         "login": "barth_l",
         "name": "barth_l",
         "title": "Louis Barth",
         "picture": "https://cdn.local.epitech.eu/userprofil/barth_l.bmp",
+        "force_note": 1,
         "prof_inst": 1,
         "visible": 1,
         "force_register": 1,
-        "assistant": 1,
-        "force_note": 1
+        "assistant": 1
     }, {
         "type": "user",
         "login": "deslog_m",
         "name": "deslog_m",
         "title": "Mathias Desloges",
         "picture": "https://cdn.local.epitech.eu/userprofil/deslog_m.bmp",
-        "force_note": 1,
         "force_register": 1,
-        "assistant": 1,
         "generate_token": 1,
+        "assistant": 1,
         "prof_inst": 1,
         "invite_ass": 1,
         "planify": 1,
         "edit_rights": 1,
-        "visible": 1
+        "visible": 1,
+        "force_note": 1
     }, {
         "type": "user",
         "login": "prudho_m",
         "name": "prudho_m",
         "title": "Max Prudhomme",
         "picture": "https://cdn.local.epitech.eu/userprofil/prudho_m.bmp",
-        "visible": 1,
-        "assistant": 1
+        "assistant": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "cristi_m",
@@ -2045,14 +2045,14 @@
         "name": "viger_s",
         "title": "Sophie Viger",
         "picture": "https://cdn.local.epitech.eu/userprofil/viger_s.bmp",
-        "assistant": 1,
-        "force_note": 1,
-        "prof_inst": 1,
-        "force_register": 1,
         "generate_token": 1,
         "invite_ass": 1,
         "planify": 1,
-        "visible": 1
+        "visible": 1,
+        "assistant": 1,
+        "force_note": 1,
+        "prof_inst": 1,
+        "force_register": 1
     }]
 }, {
     "id": 11103,
@@ -2090,30 +2090,6 @@
         "name": "dasson_g",
         "title": "Gustave Dassonville",
         "picture": "https://cdn.local.epitech.eu/userprofil/dasson_g.bmp",
-        "force_register": 1,
-        "prof_inst": 1,
-        "force_note": 1,
-        "visible": 1,
-        "assistant": 1
-    }, {
-        "type": "user",
-        "login": "boivin_a",
-        "name": "boivin_a",
-        "title": "Julien1 Boivin",
-        "picture": "https://cdn.local.epitech.eu/userprofil/boivin_a.bmp",
-        "generate_token": 1,
-        "invite_ass": 1,
-        "edit_rights": 1,
-        "force_register": 1,
-        "visible": 1,
-        "force_note": 1,
-        "planify": 1
-    }, {
-        "type": "user",
-        "login": "barth_l",
-        "name": "barth_l",
-        "title": "Louis Barth",
-        "picture": "https://cdn.local.epitech.eu/userprofil/barth_l.bmp",
         "visible": 1,
         "assistant": 1,
         "force_register": 1,
@@ -2121,19 +2097,43 @@
         "force_note": 1
     }, {
         "type": "user",
-        "login": "deslog_m",
-        "name": "deslog_m",
-        "title": "Mathias Desloges",
-        "picture": "https://cdn.local.epitech.eu/userprofil/deslog_m.bmp",
+        "login": "boivin_a",
+        "name": "boivin_a",
+        "title": "Julien1 Boivin",
+        "picture": "https://cdn.local.epitech.eu/userprofil/boivin_a.bmp",
         "force_register": 1,
         "visible": 1,
         "force_note": 1,
         "planify": 1,
-        "prof_inst": 1,
         "generate_token": 1,
         "invite_ass": 1,
-        "assistant": 1,
         "edit_rights": 1
+    }, {
+        "type": "user",
+        "login": "barth_l",
+        "name": "barth_l",
+        "title": "Louis Barth",
+        "picture": "https://cdn.local.epitech.eu/userprofil/barth_l.bmp",
+        "force_register": 1,
+        "prof_inst": 1,
+        "force_note": 1,
+        "visible": 1,
+        "assistant": 1
+    }, {
+        "type": "user",
+        "login": "deslog_m",
+        "name": "deslog_m",
+        "title": "Mathias Desloges",
+        "picture": "https://cdn.local.epitech.eu/userprofil/deslog_m.bmp",
+        "visible": 1,
+        "force_note": 1,
+        "planify": 1,
+        "generate_token": 1,
+        "prof_inst": 1,
+        "invite_ass": 1,
+        "edit_rights": 1,
+        "assistant": 1,
+        "force_register": 1
     }, {
         "type": "user",
         "login": "prudho_m",
@@ -2186,44 +2186,20 @@
         "name": "pellet_e",
         "title": "Florian1 Pelletier",
         "picture": null,
+        "prof_inst": 1,
+        "planify": 1,
+        "visible": 1,
         "force_note": 1,
         "invite_ass": 1,
         "force_register": 1,
-        "assistant": 1,
         "generate_token": 1,
-        "prof_inst": 1,
-        "planify": 1,
-        "visible": 1
+        "assistant": 1
     }, {
         "type": "user",
         "login": "dasson_g",
         "name": "dasson_g",
         "title": "Gustave Dassonville",
         "picture": "https://cdn.local.epitech.eu/userprofil/dasson_g.bmp",
-        "force_note": 1,
-        "prof_inst": 1,
-        "visible": 1,
-        "force_register": 1,
-        "assistant": 1
-    }, {
-        "type": "user",
-        "login": "boivin_a",
-        "name": "boivin_a",
-        "title": "Julien1 Boivin",
-        "picture": "https://cdn.local.epitech.eu/userprofil/boivin_a.bmp",
-        "force_note": 1,
-        "invite_ass": 1,
-        "force_register": 1,
-        "generate_token": 1,
-        "planify": 1,
-        "edit_rights": 1,
-        "visible": 1
-    }, {
-        "type": "user",
-        "login": "barth_l",
-        "name": "barth_l",
-        "title": "Louis Barth",
-        "picture": "https://cdn.local.epitech.eu/userprofil/barth_l.bmp",
         "prof_inst": 1,
         "visible": 1,
         "force_register": 1,
@@ -2231,19 +2207,43 @@
         "force_note": 1
     }, {
         "type": "user",
-        "login": "deslog_m",
-        "name": "deslog_m",
-        "title": "Mathias Desloges",
-        "picture": "https://cdn.local.epitech.eu/userprofil/deslog_m.bmp",
-        "assistant": 1,
-        "generate_token": 1,
-        "prof_inst": 1,
+        "login": "boivin_a",
+        "name": "boivin_a",
+        "title": "Julien1 Boivin",
+        "picture": "https://cdn.local.epitech.eu/userprofil/boivin_a.bmp",
         "planify": 1,
         "edit_rights": 1,
         "visible": 1,
         "force_note": 1,
         "invite_ass": 1,
-        "force_register": 1
+        "force_register": 1,
+        "generate_token": 1
+    }, {
+        "type": "user",
+        "login": "barth_l",
+        "name": "barth_l",
+        "title": "Louis Barth",
+        "picture": "https://cdn.local.epitech.eu/userprofil/barth_l.bmp",
+        "force_note": 1,
+        "prof_inst": 1,
+        "visible": 1,
+        "force_register": 1,
+        "assistant": 1
+    }, {
+        "type": "user",
+        "login": "deslog_m",
+        "name": "deslog_m",
+        "title": "Mathias Desloges",
+        "picture": "https://cdn.local.epitech.eu/userprofil/deslog_m.bmp",
+        "force_note": 1,
+        "invite_ass": 1,
+        "force_register": 1,
+        "generate_token": 1,
+        "assistant": 1,
+        "prof_inst": 1,
+        "planify": 1,
+        "edit_rights": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "prudho_m",
@@ -2296,30 +2296,6 @@
         "name": "dasson_g",
         "title": "Gustave Dassonville",
         "picture": "https://cdn.local.epitech.eu/userprofil/dasson_g.bmp",
-        "force_register": 1,
-        "prof_inst": 1,
-        "force_note": 1,
-        "visible": 1,
-        "assistant": 1
-    }, {
-        "type": "user",
-        "login": "boivin_a",
-        "name": "boivin_a",
-        "title": "Julien1 Boivin",
-        "picture": "https://cdn.local.epitech.eu/userprofil/boivin_a.bmp",
-        "generate_token": 1,
-        "invite_ass": 1,
-        "edit_rights": 1,
-        "force_register": 1,
-        "visible": 1,
-        "force_note": 1,
-        "planify": 1
-    }, {
-        "type": "user",
-        "login": "barth_l",
-        "name": "barth_l",
-        "title": "Louis Barth",
-        "picture": "https://cdn.local.epitech.eu/userprofil/barth_l.bmp",
         "visible": 1,
         "assistant": 1,
         "force_register": 1,
@@ -2327,19 +2303,43 @@
         "force_note": 1
     }, {
         "type": "user",
-        "login": "deslog_m",
-        "name": "deslog_m",
-        "title": "Mathias Desloges",
-        "picture": "https://cdn.local.epitech.eu/userprofil/deslog_m.bmp",
+        "login": "boivin_a",
+        "name": "boivin_a",
+        "title": "Julien1 Boivin",
+        "picture": "https://cdn.local.epitech.eu/userprofil/boivin_a.bmp",
         "force_register": 1,
         "visible": 1,
         "force_note": 1,
         "planify": 1,
-        "prof_inst": 1,
         "generate_token": 1,
         "invite_ass": 1,
-        "assistant": 1,
         "edit_rights": 1
+    }, {
+        "type": "user",
+        "login": "barth_l",
+        "name": "barth_l",
+        "title": "Louis Barth",
+        "picture": "https://cdn.local.epitech.eu/userprofil/barth_l.bmp",
+        "force_register": 1,
+        "prof_inst": 1,
+        "force_note": 1,
+        "visible": 1,
+        "assistant": 1
+    }, {
+        "type": "user",
+        "login": "deslog_m",
+        "name": "deslog_m",
+        "title": "Mathias Desloges",
+        "picture": "https://cdn.local.epitech.eu/userprofil/deslog_m.bmp",
+        "visible": 1,
+        "force_note": 1,
+        "planify": 1,
+        "generate_token": 1,
+        "prof_inst": 1,
+        "invite_ass": 1,
+        "edit_rights": 1,
+        "assistant": 1,
+        "force_register": 1
     }, {
         "type": "user",
         "login": "prudho_m",
@@ -2403,13 +2403,13 @@
         "name": "boivin_a",
         "title": "Julien1 Boivin",
         "picture": "https://cdn.local.epitech.eu/userprofil/boivin_a.bmp",
+        "visible": 1,
+        "force_register": 1,
+        "planify": 1,
         "edit_rights": 1,
         "generate_token": 1,
         "invite_ass": 1,
-        "force_note": 1,
-        "visible": 1,
-        "force_register": 1,
-        "planify": 1
+        "force_note": 1
     }, {
         "type": "user",
         "login": "barth_l",
@@ -2423,13 +2423,13 @@
         "name": "deslog_m",
         "title": "Mathias Desloges",
         "picture": "https://cdn.local.epitech.eu/userprofil/deslog_m.bmp",
+        "invite_ass": 1,
         "force_note": 1,
         "visible": 1,
         "force_register": 1,
         "planify": 1,
         "edit_rights": 1,
-        "generate_token": 1,
-        "invite_ass": 1
+        "generate_token": 1
     }, {
         "type": "user",
         "login": "prudho_m",
@@ -2443,26 +2443,26 @@
         "name": "cristi_m",
         "title": "Myrtille Cristiani",
         "picture": null,
-        "prof_inst": 1,
-        "planify": 1,
-        "assistant": 1,
-        "generate_token": 1,
-        "invite_ass": 1,
         "force_note": 1,
         "visible": 1,
-        "force_register": 1
+        "force_register": 1,
+        "planify": 1,
+        "prof_inst": 1,
+        "assistant": 1,
+        "generate_token": 1,
+        "invite_ass": 1
     }, {
         "type": "user",
         "login": "viger_s",
         "name": "viger_s",
         "title": "Sophie Viger",
         "picture": "https://cdn.local.epitech.eu/userprofil/viger_s.bmp",
+        "invite_ass": 1,
         "force_note": 1,
         "visible": 1,
         "force_register": 1,
         "planify": 1,
-        "generate_token": 1,
-        "invite_ass": 1
+        "generate_token": 1
     }]
 }, {
     "id": 9893,
@@ -2653,16 +2653,16 @@
         "name": "sebast_c",
         "title": "Claudia Sebastien",
         "picture": null,
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "abiass_l",
         "name": "abiass_l",
         "title": "Laurence Abiassi",
         "picture": null,
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }]
 }, {
     "id": 11203,
@@ -2731,9 +2731,9 @@
         "name": "astexte_pso",
         "title": "AsTexte PSO",
         "picture": null,
+        "visible": 1,
         "force_note": 1,
-        "assistant": 1,
-        "visible": 1
+        "assistant": 1
     }, {
         "type": "user",
         "login": "kamins_d",
@@ -2750,10 +2750,10 @@
         "name": "gibert_j",
         "title": "Juliette Gibert",
         "picture": "https://cdn.local.epitech.eu/userprofil/gibert_j.bmp",
-        "visible": 1,
-        "prof_inst": 1,
         "force_register": 1,
-        "force_note": 1
+        "force_note": 1,
+        "visible": 1,
+        "prof_inst": 1
     }]
 }, {
     "id": 9898,
@@ -2791,30 +2791,30 @@
         "name": "Astek",
         "title": "Astek",
         "picture": null,
-        "visible": 1,
-        "assistant": 1
+        "assistant": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "mortre_x",
         "name": "mortre_x",
         "title": "Xavier Mortreux",
         "picture": "https://cdn.local.epitech.eu/userprofil/mortre_x.bmp",
-        "force_register": 1,
-        "force_note": 1,
         "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "force_register": 1,
+        "force_note": 1
     }, {
         "type": "user",
         "login": "serraj_b",
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
+        "force_note": 1,
+        "edit_rights": 1,
         "planify": 1,
         "visible": 1,
         "assistant": 1,
-        "force_register": 1,
-        "force_note": 1,
-        "edit_rights": 1
+        "force_register": 1
     }]
 }, {
     "id": 9899,
@@ -2908,16 +2908,16 @@
         "name": "neveu_d",
         "title": "Dominique-Renee Neveu",
         "picture": null,
-        "prof_inst": 1,
-        "visible": 1
+        "visible": 1,
+        "prof_inst": 1
     }, {
         "type": "user",
         "login": "cholle_a",
         "name": "cholle_a",
         "title": "Matthieu1 Cholley",
         "picture": null,
-        "prof_inst": 1,
-        "visible": 1
+        "visible": 1,
+        "prof_inst": 1
     }]
 }, {
     "id": 9901,
@@ -3026,10 +3026,10 @@
         "name": "louyot_c",
         "title": "Pierre-Alexandre1 Louyot",
         "picture": null,
+        "force_note": 1,
         "visible": 1,
         "force_register": 1,
-        "prof_inst": 1,
-        "force_note": 1
+        "prof_inst": 1
     }]
 }, {
     "id": 9904,
@@ -3075,29 +3075,29 @@
         "name": "hoarau_h",
         "title": "Benjamin1 Hoarau",
         "picture": null,
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "mortre_x",
         "name": "mortre_x",
         "title": "Xavier Mortreux",
         "picture": "https://cdn.local.epitech.eu/userprofil/mortre_x.bmp",
-        "force_note": 1,
         "prof_inst": 1,
-        "visible": 1
+        "visible": 1,
+        "force_note": 1
     }, {
         "type": "user",
         "login": "serraj_b",
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
-        "planify": 1,
-        "visible": 1,
         "force_register": 1,
         "force_note": 1,
         "edit_rights": 1,
-        "assistant": 1
+        "assistant": 1,
+        "planify": 1,
+        "visible": 1
     }]
 }, {
     "id": 9905,
@@ -3135,8 +3135,8 @@
         "name": "Astek",
         "title": "Astek",
         "picture": null,
-        "assistant": 1,
-        "visible": 1
+        "visible": 1,
+        "assistant": 1
     }, {
         "type": "user",
         "login": "pouill_b",
@@ -3151,20 +3151,20 @@
         "name": "fayard_a",
         "title": "Loic1 Fayard",
         "picture": "https://cdn.local.epitech.eu/userprofil/fayard_a.bmp",
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "serraj_b",
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
-        "force_note": 1,
-        "visible": 1,
-        "edit_rights": 1,
         "force_register": 1,
         "planify": 1,
-        "assistant": 1
+        "assistant": 1,
+        "force_note": 1,
+        "visible": 1,
+        "edit_rights": 1
     }]
 }, {
     "id": 11143,
@@ -3202,26 +3202,26 @@
         "name": "fayard_a",
         "title": "Loic1 Fayard",
         "picture": "https://cdn.local.epitech.eu/userprofil/fayard_a.bmp",
+        "generate_token": 1,
         "edit_rights": 1,
         "force_register": 1,
         "force_note": 1,
         "visible": 1,
         "planify": 1,
         "prof_inst": 1,
-        "invite_ass": 1,
-        "generate_token": 1
+        "invite_ass": 1
     }, {
         "type": "user",
         "login": "serraj_b",
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
-        "assistant": 1,
-        "force_register": 1,
         "force_note": 1,
         "visible": 1,
         "planify": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "assistant": 1,
+        "force_register": 1
     }]
 }, {
     "id": 10741,
@@ -3259,15 +3259,15 @@
         "name": "sebast_c",
         "title": "Claudia Sebastien",
         "picture": null,
-        "edit_rights": 1,
-        "prof_inst": 1,
-        "force_register": 1,
-        "planify": 1,
         "invite_ass": 1,
         "visible": 1,
         "assistant": 1,
         "force_note": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "edit_rights": 1,
+        "prof_inst": 1,
+        "force_register": 1,
+        "planify": 1
     }, {
         "type": "group",
         "login": "Pangolin",
@@ -3281,15 +3281,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "prof_inst": 1,
-        "planify": 1,
         "force_note": 1,
         "edit_rights": 1,
         "visible": 1,
         "force_register": 1,
         "invite_ass": 1,
         "assistant": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "prof_inst": 1,
+        "planify": 1
     }]
 }, {
     "id": 10743,
@@ -3351,9 +3351,9 @@
         "picture": null,
         "force_note": 1,
         "edit_rights": 1,
+        "visible": 1,
         "force_register": 1,
         "invite_ass": 1,
-        "visible": 1,
         "assistant": 1,
         "generate_token": 1,
         "prof_inst": 1,
@@ -3402,15 +3402,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "prof_inst": 1,
-        "planify": 1,
-        "edit_rights": 1,
-        "force_note": 1,
         "invite_ass": 1,
         "visible": 1,
         "force_register": 1,
+        "generate_token": 1,
         "assistant": 1,
-        "generate_token": 1
+        "planify": 1,
+        "prof_inst": 1,
+        "edit_rights": 1,
+        "force_note": 1
     }]
 }, {
     "id": 10747,
@@ -3448,8 +3448,8 @@
         "name": "moin_m",
         "title": "Marie Moin",
         "picture": "https://cdn.local.epitech.eu/userprofil/moin_m.bmp",
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }, {
         "type": "group",
         "login": "Pangolin",
@@ -3463,15 +3463,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "planify": 1,
-        "prof_inst": 1,
+        "visible": 1,
         "force_note": 1,
         "edit_rights": 1,
-        "visible": 1,
         "force_register": 1,
         "invite_ass": 1,
         "assistant": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "prof_inst": 1,
+        "planify": 1
     }]
 }, {
     "id": 10749,
@@ -3516,15 +3516,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
+        "prof_inst": 1,
+        "planify": 1,
+        "force_note": 1,
+        "edit_rights": 1,
         "visible": 1,
         "force_register": 1,
         "invite_ass": 1,
         "assistant": 1,
-        "generate_token": 1,
-        "prof_inst": 1,
-        "planify": 1,
-        "force_note": 1,
-        "edit_rights": 1
+        "generate_token": 1
     }]
 }, {
     "id": 10751,
@@ -3562,8 +3562,8 @@
         "name": "commt4",
         "title": "Communication Presetation",
         "picture": null,
-        "prof_inst": 1,
-        "visible": 1
+        "visible": 1,
+        "prof_inst": 1
     }, {
         "type": "group",
         "login": "Pangolin",
@@ -3577,15 +3577,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "assistant": 1,
-        "generate_token": 1,
         "prof_inst": 1,
         "planify": 1,
         "visible": 1,
         "force_note": 1,
         "edit_rights": 1,
         "force_register": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "assistant": 1,
+        "generate_token": 1
     }]
 }, {
     "id": 10753,
@@ -3630,15 +3630,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
+        "invite_ass": 1,
         "visible": 1,
         "force_register": 1,
-        "invite_ass": 1,
-        "assistant": 1,
         "generate_token": 1,
-        "prof_inst": 1,
+        "assistant": 1,
         "planify": 1,
-        "force_note": 1,
-        "edit_rights": 1
+        "prof_inst": 1,
+        "edit_rights": 1,
+        "force_note": 1
     }]
 }, {
     "id": 10755,
@@ -3684,15 +3684,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
+        "force_register": 1,
+        "invite_ass": 1,
         "assistant": 1,
         "generate_token": 1,
         "prof_inst": 1,
         "planify": 1,
-        "edit_rights": 1,
         "visible": 1,
         "force_note": 1,
-        "force_register": 1,
-        "invite_ass": 1
+        "edit_rights": 1
     }]
 }, {
     "id": 10757,
@@ -3737,15 +3737,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "prof_inst": 1,
-        "planify": 1,
-        "edit_rights": 1,
-        "force_note": 1,
         "invite_ass": 1,
         "visible": 1,
         "force_register": 1,
+        "generate_token": 1,
         "assistant": 1,
-        "generate_token": 1
+        "planify": 1,
+        "prof_inst": 1,
+        "edit_rights": 1,
+        "force_note": 1
     }]
 }, {
     "id": 10759,
@@ -3791,15 +3791,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "visible": 1,
-        "force_note": 1,
-        "edit_rights": 1,
         "force_register": 1,
         "invite_ass": 1,
         "assistant": 1,
         "generate_token": 1,
         "prof_inst": 1,
-        "planify": 1
+        "planify": 1,
+        "visible": 1,
+        "force_note": 1,
+        "edit_rights": 1
     }]
 }, {
     "id": 10761,
@@ -3845,15 +3845,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "visible": 1,
-        "force_note": 1,
-        "edit_rights": 1,
         "force_register": 1,
         "invite_ass": 1,
         "assistant": 1,
         "generate_token": 1,
         "prof_inst": 1,
-        "planify": 1
+        "planify": 1,
+        "visible": 1,
+        "force_note": 1,
+        "edit_rights": 1
     }]
 }, {
     "id": 10681,
@@ -3914,11 +3914,11 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "planify": 1,
         "prof_inst": 1,
+        "planify": 1,
+        "visible": 1,
         "force_note": 1,
         "edit_rights": 1,
-        "visible": 1,
         "force_register": 1,
         "invite_ass": 1,
         "assistant": 1,
@@ -3968,15 +3968,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "visible": 1,
         "generate_token": 1,
-        "assistant": 1,
+        "visible": 1,
         "planify": 1,
-        "prof_inst": 1,
+        "assistant": 1,
         "force_note": 1,
         "edit_rights": 1,
-        "force_register": 1,
-        "invite_ass": 1
+        "prof_inst": 1,
+        "invite_ass": 1,
+        "force_register": 1
     }]
 }, {
     "id": 10765,
@@ -4021,15 +4021,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "visible": 1,
-        "force_register": 1,
-        "invite_ass": 1,
         "assistant": 1,
         "generate_token": 1,
         "prof_inst": 1,
         "planify": 1,
         "force_note": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "visible": 1,
+        "force_register": 1,
+        "invite_ass": 1
     }]
 }, {
     "id": 10052,
@@ -4067,18 +4067,6 @@
         "name": "valdez_a",
         "title": "Ana Valdez",
         "picture": null,
-        "invite_ass": 1,
-        "visible": 1,
-        "force_note": 1,
-        "force_register": 1,
-        "edit_rights": 1,
-        "prof_inst": 1
-    }, {
-        "type": "user",
-        "login": "pierso_e",
-        "name": "pierso_e",
-        "title": "Emery Pierson",
-        "picture": "https://cdn.local.epitech.eu/userprofil/pierso_e.bmp",
         "force_register": 1,
         "edit_rights": 1,
         "prof_inst": 1,
@@ -4087,16 +4075,28 @@
         "force_note": 1
     }, {
         "type": "user",
+        "login": "pierso_e",
+        "name": "pierso_e",
+        "title": "Emery Pierson",
+        "picture": "https://cdn.local.epitech.eu/userprofil/pierso_e.bmp",
+        "prof_inst": 1,
+        "invite_ass": 1,
+        "visible": 1,
+        "force_note": 1,
+        "force_register": 1,
+        "edit_rights": 1
+    }, {
+        "type": "user",
         "login": "morgan_m",
         "name": "morgan_m",
         "title": "Melanie Morgan",
         "picture": null,
-        "visible": 1,
-        "force_note": 1,
         "force_register": 1,
         "edit_rights": 1,
         "prof_inst": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "visible": 1,
+        "force_note": 1
     }]
 }, {
     "id": 10314,
@@ -4134,14 +4134,14 @@
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
-        "edit_rights": 1,
-        "visible": 1,
-        "force_register": 1,
         "planify": 1,
         "invite_ass": 1,
         "prof_inst": 1,
         "force_note": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "edit_rights": 1,
+        "visible": 1,
+        "force_register": 1
     }]
 }, {
     "id": 10521,
@@ -4179,14 +4179,14 @@
         "name": "abiass_l",
         "title": "Laurence Abiassi",
         "picture": null,
-        "prof_inst": 1,
-        "force_note": 1,
-        "generate_token": 1,
         "edit_rights": 1,
         "visible": 1,
         "force_register": 1,
         "planify": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "prof_inst": 1,
+        "force_note": 1,
+        "generate_token": 1
     }]
 }, {
     "id": 9955,
@@ -4224,20 +4224,6 @@
         "name": "kamins_d",
         "title": "Danielle Kaminsky",
         "picture": null,
-        "force_note": 1,
-        "planify": 1,
-        "generate_token": 1,
-        "invite_ass": 1,
-        "edit_rights": 1,
-        "visible": 1,
-        "prof_inst": 1,
-        "force_register": 1
-    }, {
-        "type": "user",
-        "login": "gibert_j",
-        "name": "gibert_j",
-        "title": "Juliette Gibert",
-        "picture": "https://cdn.local.epitech.eu/userprofil/gibert_j.bmp",
         "edit_rights": 1,
         "visible": 1,
         "prof_inst": 1,
@@ -4246,6 +4232,20 @@
         "planify": 1,
         "generate_token": 1,
         "invite_ass": 1
+    }, {
+        "type": "user",
+        "login": "gibert_j",
+        "name": "gibert_j",
+        "title": "Juliette Gibert",
+        "picture": "https://cdn.local.epitech.eu/userprofil/gibert_j.bmp",
+        "planify": 1,
+        "generate_token": 1,
+        "invite_ass": 1,
+        "edit_rights": 1,
+        "visible": 1,
+        "prof_inst": 1,
+        "force_register": 1,
+        "force_note": 1
     }]
 }, {
     "id": 10650,
@@ -4283,14 +4283,14 @@
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
-        "edit_rights": 1,
-        "visible": 1,
-        "force_register": 1,
         "planify": 1,
         "invite_ass": 1,
         "assistant": 1,
         "force_note": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "edit_rights": 1,
+        "visible": 1,
+        "force_register": 1
     }]
 }, {
     "id": 10003,
@@ -4328,28 +4328,28 @@
         "name": "neveu_d",
         "title": "Dominique-Renee Neveu",
         "picture": null,
-        "visible": 1,
-        "prof_inst": 1,
-        "force_register": 1,
         "force_note": 1,
-        "planify": 1,
-        "generate_token": 1,
-        "invite_ass": 1,
-        "edit_rights": 1
-    }, {
-        "type": "user",
-        "login": "cholle_a",
-        "name": "cholle_a",
-        "title": "Matthieu1 Cholley",
-        "picture": null,
         "planify": 1,
         "generate_token": 1,
         "invite_ass": 1,
         "edit_rights": 1,
         "visible": 1,
         "prof_inst": 1,
+        "force_register": 1
+    }, {
+        "type": "user",
+        "login": "cholle_a",
+        "name": "cholle_a",
+        "title": "Matthieu1 Cholley",
+        "picture": null,
+        "edit_rights": 1,
+        "visible": 1,
+        "prof_inst": 1,
         "force_register": 1,
-        "force_note": 1
+        "force_note": 1,
+        "planify": 1,
+        "generate_token": 1,
+        "invite_ass": 1
     }]
 }, {
     "id": 10449,
@@ -4426,14 +4426,14 @@
         "name": "hoarau_h",
         "title": "Benjamin1 Hoarau",
         "picture": null,
-        "prof_inst": 1,
-        "force_note": 1,
-        "generate_token": 1,
         "edit_rights": 1,
         "visible": 1,
         "force_register": 1,
         "planify": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "prof_inst": 1,
+        "force_note": 1,
+        "generate_token": 1
     }]
 }, {
     "id": 10254,
@@ -4471,28 +4471,28 @@
         "name": "amegav_s",
         "title": "Seth Amegavieledi",
         "picture": "https://cdn.local.epitech.eu/userprofil/amegav_s.bmp",
-        "edit_rights": 1,
-        "visible": 1,
-        "prof_inst": 1,
         "force_register": 1,
-        "force_note": 1,
-        "planify": 1,
-        "generate_token": 1,
-        "invite_ass": 1
-    }, {
-        "type": "user",
-        "login": "serraj_b",
-        "name": "serraj_b",
-        "title": "Younes2 Serraj",
-        "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
         "force_note": 1,
         "planify": 1,
         "generate_token": 1,
         "invite_ass": 1,
         "edit_rights": 1,
         "visible": 1,
+        "prof_inst": 1
+    }, {
+        "type": "user",
+        "login": "serraj_b",
+        "name": "serraj_b",
+        "title": "Younes2 Serraj",
+        "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
+        "invite_ass": 1,
+        "edit_rights": 1,
+        "visible": 1,
         "prof_inst": 1,
-        "force_register": 1
+        "force_register": 1,
+        "force_note": 1,
+        "planify": 1,
+        "generate_token": 1
     }]
 }, {
     "id": 10683,
@@ -4538,30 +4538,30 @@
         "name": "viger_s",
         "title": "Sophie Viger",
         "picture": "https://cdn.local.epitech.eu/userprofil/viger_s.bmp",
+        "force_note": 1,
+        "generate_token": 1,
         "edit_rights": 1,
         "prof_inst": 1,
         "force_register": 1,
         "planify": 1,
         "invite_ass": 1,
         "visible": 1,
-        "assistant": 1,
-        "force_note": 1,
-        "generate_token": 1
+        "assistant": 1
     }, {
         "type": "group",
         "login": "team-wac-paris",
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "assistant": 1,
-        "generate_token": 1,
-        "prof_inst": 1,
-        "planify": 1,
         "visible": 1,
         "force_note": 1,
         "edit_rights": 1,
         "force_register": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "assistant": 1,
+        "generate_token": 1,
+        "prof_inst": 1,
+        "planify": 1
     }]
 }, {
     "id": 10687,
@@ -4599,38 +4599,38 @@
         "name": "Pangolin",
         "title": "Pangolin",
         "picture": null,
-        "assistant": 1,
-        "visible": 1
+        "visible": 1,
+        "assistant": 1
     }, {
         "type": "user",
         "login": "viger_s",
         "name": "viger_s",
         "title": "Sophie Viger",
         "picture": "https://cdn.local.epitech.eu/userprofil/viger_s.bmp",
-        "edit_rights": 1,
-        "prof_inst": 1,
-        "force_register": 1,
-        "planify": 1,
         "invite_ass": 1,
         "visible": 1,
         "assistant": 1,
         "force_note": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "edit_rights": 1,
+        "prof_inst": 1,
+        "force_register": 1,
+        "planify": 1
     }, {
         "type": "group",
         "login": "team-wac-paris",
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "assistant": 1,
-        "generate_token": 1,
         "prof_inst": 1,
         "planify": 1,
         "visible": 1,
         "force_note": 1,
         "edit_rights": 1,
         "force_register": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "assistant": 1,
+        "generate_token": 1
     }]
 }, {
     "id": 10219,
@@ -4668,12 +4668,12 @@
         "name": "lefeuv_a",
         "title": "Pierre-Yves1 Lefeuvre",
         "picture": "https://cdn.local.epitech.eu/userprofil/lefeuv_a.bmp",
+        "planify": 1,
         "prof_inst": 1,
         "force_note": 1,
         "invite_ass": 1,
         "visible": 1,
-        "force_register": 1,
-        "planify": 1
+        "force_register": 1
     }]
 }, {
     "id": 10461,
@@ -4742,12 +4742,12 @@
         "name": "paris-tech2",
         "title": "Paris-tech2",
         "picture": null,
-        "visible": 1,
-        "planify": 1,
         "force_note": 1,
         "force_register": 1,
         "prof_inst": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "visible": 1,
+        "planify": 1
     }]
 }, {
     "id": 10626,
@@ -4785,11 +4785,11 @@
         "name": "career-development-center",
         "title": "Career Development Center",
         "picture": null,
-        "visible": 1,
-        "edit_rights": 1,
         "force_note": 1,
         "force_register": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1,
+        "edit_rights": 1
     }]
 }, {
     "id": 11116,
@@ -4827,13 +4827,13 @@
         "name": "pierso_e",
         "title": "Emery Pierson",
         "picture": "https://cdn.local.epitech.eu/userprofil/pierso_e.bmp",
-        "visible": 1,
-        "force_register": 1,
         "planify": 1,
         "edit_rights": 1,
         "prof_inst": 1,
         "force_note": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "visible": 1,
+        "force_register": 1
     }]
 }, {
     "id": 10326,
@@ -4871,12 +4871,12 @@
         "name": "davoin_c",
         "title": "Arthur Davoine",
         "picture": null,
+        "force_note": 1,
+        "planify": 1,
         "visible": 1,
         "invite_ass": 1,
         "edit_rights": 1,
-        "force_register": 1,
-        "force_note": 1,
-        "planify": 1
+        "force_register": 1
     }, {
         "type": "group",
         "login": "Astek",
@@ -4891,13 +4891,13 @@
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
-        "planify": 1,
-        "assistant": 1,
         "visible": 1,
         "prof_inst": 1,
         "edit_rights": 1,
         "force_register": 1,
-        "force_note": 1
+        "force_note": 1,
+        "planify": 1,
+        "assistant": 1
     }]
 }, {
     "id": 11019,
@@ -4935,12 +4935,12 @@
         "name": "davoin_c",
         "title": "Arthur Davoine",
         "picture": null,
+        "force_register": 1,
+        "force_note": 1,
         "planify": 1,
         "visible": 1,
         "invite_ass": 1,
-        "edit_rights": 1,
-        "force_register": 1,
-        "force_note": 1
+        "edit_rights": 1
     }, {
         "type": "group",
         "login": "Astek",
@@ -4955,13 +4955,13 @@
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
-        "force_register": 1,
-        "force_note": 1,
         "planify": 1,
         "visible": 1,
         "invite_ass": 1,
         "prof_inst": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "force_register": 1,
+        "force_note": 1
     }]
 }, {
     "id": 10290,
@@ -5080,22 +5080,22 @@
         "name": "fayard_a",
         "title": "Loic1 Fayard",
         "picture": "https://cdn.local.epitech.eu/userprofil/fayard_a.bmp",
+        "force_note": 1,
+        "invite_ass": 1,
         "visible": 1,
         "prof_inst": 1,
-        "force_register": 1,
-        "force_note": 1,
-        "invite_ass": 1
+        "force_register": 1
     }, {
         "type": "user",
         "login": "serraj_b",
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
-        "invite_ass": 1,
         "visible": 1,
         "prof_inst": 1,
         "force_register": 1,
-        "force_note": 1
+        "force_note": 1,
+        "invite_ass": 1
     }]
 }, {
     "id": 10233,
@@ -5187,20 +5187,20 @@
         "name": "dluzny_c",
         "title": "Cathy Dluzny",
         "picture": null,
+        "visible": 1,
         "planify": 1,
-        "force_register": 1,
-        "visible": 1
+        "force_register": 1
     }, {
         "type": "user",
         "login": "sebast_c",
         "name": "sebast_c",
         "title": "Claudia Sebastien",
         "picture": null,
-        "force_register": 1,
-        "assistant": 1,
         "visible": 1,
         "invite_ass": 1,
-        "planify": 1
+        "planify": 1,
+        "force_register": 1,
+        "assistant": 1
     }, {
         "type": "user",
         "login": "didiot_e",
@@ -5215,32 +5215,32 @@
         "name": "abiass_l",
         "title": "Laurence Abiassi",
         "picture": null,
+        "edit_rights": 1,
+        "force_register": 1,
         "prof_inst": 1,
         "invite_ass": 1,
-        "visible": 1,
-        "force_register": 1,
-        "edit_rights": 1
+        "visible": 1
     }, {
         "type": "user",
         "login": "fayard_a",
         "name": "fayard_a",
         "title": "Loic1 Fayard",
         "picture": "https://cdn.local.epitech.eu/userprofil/fayard_a.bmp",
-        "force_register": 1,
-        "invite_ass": 1,
         "visible": 1,
         "planify": 1,
         "prof_inst": 1,
-        "force_note": 1
+        "force_note": 1,
+        "force_register": 1,
+        "invite_ass": 1
     }, {
         "type": "user",
         "login": "mandal_m",
         "name": "mandal_m",
         "title": "Melanie Mandala",
         "picture": "https://cdn.local.epitech.eu/userprofil/mandal_m.bmp",
-        "visible": 1,
         "planify": 1,
-        "force_register": 1
+        "force_register": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "sarr_t",
@@ -5287,30 +5287,30 @@
         "name": "ape_paris",
         "title": "APE_PARIS",
         "picture": null,
+        "force_note": 1,
         "visible": 1,
         "force_register": 1,
-        "assistant": 1,
-        "force_note": 1
+        "assistant": 1
     }, {
         "type": "group",
         "login": "Astek",
         "name": "Astek",
         "title": "Astek",
         "picture": null,
-        "assistant": 1,
-        "visible": 1
+        "visible": 1,
+        "assistant": 1
     }, {
         "type": "user",
         "login": "serraj_b",
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
+        "visible": 1,
+        "force_register": 1,
         "planify": 1,
         "prof_inst": 1,
         "force_note": 1,
-        "invite_ass": 1,
-        "visible": 1,
-        "force_register": 1
+        "invite_ass": 1
     }]
 }, {
     "id": 10230,
@@ -5348,12 +5348,12 @@
         "name": "career-development-center",
         "title": "Career Development Center",
         "picture": null,
+        "force_note": 1,
         "force_register": 1,
         "prof_inst": 1,
         "invite_ass": 1,
         "visible": 1,
-        "planify": 1,
-        "force_note": 1
+        "planify": 1
     }]
 }, {
     "id": 10231,
@@ -5391,39 +5391,39 @@
         "name": "ape_paris",
         "title": "APE_PARIS",
         "picture": null,
-        "force_note": 1,
-        "force_register": 1,
         "visible": 1,
-        "assistant": 1
+        "force_register": 1,
+        "assistant": 1,
+        "force_note": 1
     }, {
         "type": "group",
         "login": "Astek",
         "name": "Astek",
         "title": "Astek",
         "picture": null,
-        "visible": 1,
-        "assistant": 1
+        "assistant": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "fayard_a",
         "name": "fayard_a",
         "title": "Loic1 Fayard",
         "picture": "https://cdn.local.epitech.eu/userprofil/fayard_a.bmp",
-        "planify": 1,
-        "prof_inst": 1,
         "force_register": 1,
         "invite_ass": 1,
         "visible": 1,
-        "force_note": 1
+        "force_note": 1,
+        "planify": 1,
+        "prof_inst": 1
     }, {
         "type": "user",
         "login": "serraj_b",
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
-        "visible": 1,
         "planify": 1,
-        "assistant": 1
+        "assistant": 1,
+        "visible": 1
     }]
 }, {
     "id": 10064,
@@ -5461,24 +5461,24 @@
         "name": "valdez_a",
         "title": "Ana Valdez",
         "picture": null,
-        "invite_ass": 1,
         "visible": 1,
         "force_note": 1,
         "force_register": 1,
         "edit_rights": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "invite_ass": 1
     }, {
         "type": "user",
         "login": "pierso_e",
         "name": "pierso_e",
         "title": "Emery Pierson",
         "picture": "https://cdn.local.epitech.eu/userprofil/pierso_e.bmp",
-        "force_register": 1,
         "edit_rights": 1,
         "prof_inst": 1,
         "invite_ass": 1,
         "visible": 1,
-        "force_note": 1
+        "force_note": 1,
+        "force_register": 1
     }, {
         "type": "user",
         "login": "morgan_m",
@@ -5572,13 +5572,13 @@
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
+        "planify": 1,
+        "edit_rights": 1,
         "prof_inst": 1,
         "force_note": 1,
         "invite_ass": 1,
         "visible": 1,
-        "force_register": 1,
-        "planify": 1,
-        "edit_rights": 1
+        "force_register": 1
     }]
 }, {
     "id": 10183,
@@ -5616,12 +5616,12 @@
         "name": "lefeuv_a",
         "title": "Pierre-Yves1 Lefeuvre",
         "picture": "https://cdn.local.epitech.eu/userprofil/lefeuv_a.bmp",
-        "visible": 1,
-        "force_register": 1,
         "planify": 1,
         "prof_inst": 1,
         "force_note": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "visible": 1,
+        "force_register": 1
     }]
 }, {
     "id": 10533,
@@ -5702,12 +5702,12 @@
         "name": "hoarau_h",
         "title": "Benjamin1 Hoarau",
         "picture": null,
+        "planify": 1,
         "prof_inst": 1,
         "force_note": 1,
         "invite_ass": 1,
         "visible": 1,
-        "force_register": 1,
-        "planify": 1
+        "force_register": 1
     }]
 }, {
     "id": 9967,
@@ -5745,24 +5745,24 @@
         "name": "kamins_d",
         "title": "Danielle Kaminsky",
         "picture": null,
-        "visible": 1,
-        "prof_inst": 1,
-        "force_register": 1,
         "force_note": 1,
         "planify": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "visible": 1,
+        "prof_inst": 1,
+        "force_register": 1
     }, {
         "type": "user",
         "login": "gibert_j",
         "name": "gibert_j",
         "title": "Juliette Gibert",
         "picture": "https://cdn.local.epitech.eu/userprofil/gibert_j.bmp",
-        "planify": 1,
-        "invite_ass": 1,
         "visible": 1,
         "prof_inst": 1,
         "force_register": 1,
-        "force_note": 1
+        "force_note": 1,
+        "planify": 1,
+        "invite_ass": 1
     }]
 }, {
     "id": 10015,
@@ -5800,12 +5800,12 @@
         "name": "neveu_d",
         "title": "Dominique-Renee Neveu",
         "picture": null,
+        "force_register": 1,
+        "force_note": 1,
         "planify": 1,
         "invite_ass": 1,
         "visible": 1,
-        "prof_inst": 1,
-        "force_register": 1,
-        "force_note": 1
+        "prof_inst": 1
     }, {
         "type": "user",
         "login": "robert_p",
@@ -5979,13 +5979,13 @@
         "name": "serraj_b",
         "title": "Younes2 Serraj",
         "picture": "https://cdn.local.epitech.eu/userprofil/serraj_b.bmp",
-        "visible": 1,
-        "force_register": 1,
         "planify": 1,
         "edit_rights": 1,
         "prof_inst": 1,
         "force_note": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "visible": 1,
+        "force_register": 1
     }]
 }, {
     "id": 10853,
@@ -6023,20 +6023,20 @@
         "name": "hoarau_h",
         "title": "Benjamin1 Hoarau",
         "picture": null,
-        "visible": 1,
-        "force_register": 1,
         "invite_ass": 1,
         "prof_inst": 1,
         "force_note": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "visible": 1,
+        "force_register": 1
     }, {
         "type": "group",
         "login": "paris-tech2",
         "name": "paris-tech2",
         "title": "Paris-tech2",
         "picture": null,
-        "force_note": 1,
         "visible": 1,
+        "force_note": 1,
         "force_register": 1
     }, {
         "type": "group",
@@ -6044,9 +6044,9 @@
         "name": "paris-tech3",
         "title": "Paris-tech3",
         "picture": null,
-        "force_note": 1,
+        "force_register": 1,
         "visible": 1,
-        "force_register": 1
+        "force_note": 1
     }]
 }, {
     "id": 10767,
@@ -6074,7 +6074,7 @@
         "invite_ass",
         "edit_rights"
     ],
-    "waiting_grades": "14",
+    "waiting_grades": "17",
     "active_promo": null,
     "open": "1",
     "title": "W4 - .Net Framework",
@@ -6091,15 +6091,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "prof_inst": 1,
-        "planify": 1,
-        "edit_rights": 1,
-        "force_note": 1,
+        "force_register": 1,
         "invite_ass": 1,
         "visible": 1,
-        "force_register": 1,
         "assistant": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "prof_inst": 1,
+        "planify": 1,
+        "force_note": 1,
+        "edit_rights": 1
     }]
 }, {
     "id": 10769,
@@ -6144,15 +6144,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "assistant": 1,
-        "generate_token": 1,
         "prof_inst": 1,
         "planify": 1,
         "force_note": 1,
         "edit_rights": 1,
         "visible": 1,
         "force_register": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "assistant": 1,
+        "generate_token": 1
     }]
 }, {
     "id": 10919,
@@ -6190,7 +6190,6 @@
         "name": "sebast_c",
         "title": "Claudia Sebastien",
         "picture": null,
-        "force_register": 1,
         "force_note": 1,
         "visible": 1,
         "planify": 1,
@@ -6198,7 +6197,8 @@
         "generate_token": 1,
         "assistant": 1,
         "invite_ass": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "force_register": 1
     }, {
         "type": "group",
         "login": "Pangolin",
@@ -6212,29 +6212,29 @@
         "name": "viger_s",
         "title": "Sophie Viger",
         "picture": "https://cdn.local.epitech.eu/userprofil/viger_s.bmp",
+        "invite_ass": 1,
+        "edit_rights": 1,
+        "force_register": 1,
         "force_note": 1,
         "visible": 1,
         "planify": 1,
         "prof_inst": 1,
-        "generate_token": 1,
-        "invite_ass": 1,
-        "edit_rights": 1,
-        "force_register": 1
+        "generate_token": 1
     }, {
         "type": "group",
         "login": "team-wac-paris",
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "prof_inst": 1,
-        "planify": 1,
         "force_note": 1,
         "edit_rights": 1,
         "visible": 1,
         "force_register": 1,
         "invite_ass": 1,
         "assistant": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "prof_inst": 1,
+        "planify": 1
     }]
 }, {
     "id": 10679,
@@ -6294,15 +6294,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "invite_ass": 1,
         "visible": 1,
         "force_register": 1,
+        "invite_ass": 1,
         "assistant": 1,
         "generate_token": 1,
         "prof_inst": 1,
         "planify": 1,
-        "edit_rights": 1,
-        "force_note": 1
+        "force_note": 1,
+        "edit_rights": 1
     }]
 }, {
     "id": 10771,
@@ -6340,8 +6340,8 @@
         "name": "gfe@free.fr",
         "title": "Gerard Fedida",
         "picture": "https://cdn.local.epitech.eu/userprofil/fedida__.bmp",
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }, {
         "type": "group",
         "login": "Pangolin",
@@ -6355,15 +6355,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
-        "planify": 1,
-        "prof_inst": 1,
+        "visible": 1,
         "force_note": 1,
         "edit_rights": 1,
-        "visible": 1,
         "force_register": 1,
         "invite_ass": 1,
         "assistant": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "prof_inst": 1,
+        "planify": 1
     }]
 }, {
     "id": 10773,
@@ -6408,15 +6408,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
+        "invite_ass": 1,
         "visible": 1,
         "force_register": 1,
-        "invite_ass": 1,
-        "assistant": 1,
         "generate_token": 1,
-        "prof_inst": 1,
+        "assistant": 1,
         "planify": 1,
-        "force_note": 1,
-        "edit_rights": 1
+        "prof_inst": 1,
+        "edit_rights": 1,
+        "force_note": 1
     }]
 }, {
     "id": 10775,
@@ -6461,15 +6461,15 @@
         "name": "team-wac-paris",
         "title": "Team Wac Paris",
         "picture": null,
+        "invite_ass": 1,
         "visible": 1,
         "force_register": 1,
-        "invite_ass": 1,
-        "assistant": 1,
         "generate_token": 1,
-        "prof_inst": 1,
+        "assistant": 1,
         "planify": 1,
-        "force_note": 1,
-        "edit_rights": 1
+        "prof_inst": 1,
+        "edit_rights": 1,
+        "force_note": 1
     }]
 }, {
     "id": 10777,
@@ -6569,11 +6569,11 @@
         "picture": null,
         "prof_inst": 1,
         "planify": 1,
-        "edit_rights": 1,
         "force_note": 1,
-        "invite_ass": 1,
+        "edit_rights": 1,
         "visible": 1,
         "force_register": 1,
+        "invite_ass": 1,
         "assistant": 1,
         "generate_token": 1
     }]
@@ -6613,22 +6613,22 @@
         "name": "kamins_d",
         "title": "Danielle Kaminsky",
         "picture": null,
-        "force_note": 1,
-        "invite_ass": 1,
         "visible": 1,
         "prof_inst": 1,
-        "force_register": 1
+        "force_register": 1,
+        "force_note": 1,
+        "invite_ass": 1
     }, {
         "type": "user",
         "login": "gibert_j",
         "name": "gibert_j",
         "title": "Juliette Gibert",
         "picture": "https://cdn.local.epitech.eu/userprofil/gibert_j.bmp",
-        "visible": 1,
-        "prof_inst": 1,
         "force_register": 1,
         "force_note": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "visible": 1,
+        "prof_inst": 1
     }]
 }, {
     "id": 10587,
@@ -6717,8 +6717,8 @@
         "name": "ASR",
         "title": "ASR",
         "picture": null,
-        "assistant": 1,
-        "visible": 1
+        "visible": 1,
+        "assistant": 1
     }]
 }, {
     "id": 10076,
@@ -6756,48 +6756,48 @@
         "name": "valdez_a",
         "title": "Ana Valdez",
         "picture": null,
-        "invite_ass": 1,
+        "force_note": 1,
         "visible": 1,
+        "invite_ass": 1,
         "prof_inst": 1,
         "edit_rights": 1,
-        "force_register": 1,
-        "force_note": 1
+        "force_register": 1
     }, {
         "type": "user",
         "login": "lepore_a",
         "name": "lepore_a",
         "title": "Anthony Lepore",
         "picture": null,
+        "prof_inst": 1,
+        "edit_rights": 1,
         "force_register": 1,
         "force_note": 1,
-        "invite_ass": 1,
         "visible": 1,
-        "edit_rights": 1,
-        "prof_inst": 1
+        "invite_ass": 1
     }, {
         "type": "user",
         "login": "pierso_e",
         "name": "pierso_e",
         "title": "Emery Pierson",
         "picture": "https://cdn.local.epitech.eu/userprofil/pierso_e.bmp",
+        "prof_inst": 1,
+        "edit_rights": 1,
         "force_register": 1,
         "force_note": 1,
-        "invite_ass": 1,
         "visible": 1,
-        "prof_inst": 1,
-        "edit_rights": 1
+        "invite_ass": 1
     }, {
         "type": "user",
         "login": "morgan_m",
         "name": "morgan_m",
         "title": "Melanie Morgan",
         "picture": null,
-        "invite_ass": 1,
+        "force_note": 1,
         "visible": 1,
-        "edit_rights": 1,
+        "invite_ass": 1,
         "prof_inst": 1,
-        "force_register": 1,
-        "force_note": 1
+        "edit_rights": 1,
+        "force_register": 1
     }]
 }, {
     "id": 10708,
@@ -6859,12 +6859,12 @@
         "name": "morgan_m",
         "title": "Melanie Morgan",
         "picture": null,
+        "edit_rights": 1,
         "prof_inst": 1,
         "invite_ass": 1,
         "visible": 1,
         "force_note": 1,
-        "force_register": 1,
-        "edit_rights": 1
+        "force_register": 1
     }]
 }, {
     "id": 11129,
@@ -6933,12 +6933,12 @@
         "name": "lefeuv_a",
         "title": "Pierre-Yves1 Lefeuvre",
         "picture": "https://cdn.local.epitech.eu/userprofil/lefeuv_a.bmp",
-        "visible": 1,
         "force_register": 1,
         "invite_ass": 1,
         "prof_inst": 1,
         "force_note": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "visible": 1
     }]
 }, {
     "id": 10207,
@@ -6976,21 +6976,21 @@
         "name": "Koala_cpp",
         "title": "Koala C++",
         "picture": null,
-        "force_note": 1,
         "assistant": 1,
-        "visible": 1
+        "visible": 1,
+        "force_note": 1
     }, {
         "type": "user",
         "login": "lefeuv_a",
         "name": "lefeuv_a",
         "title": "Pierre-Yves1 Lefeuvre",
         "picture": "https://cdn.local.epitech.eu/userprofil/lefeuv_a.bmp",
-        "prof_inst": 1,
-        "force_note": 1,
-        "edit_rights": 1,
         "visible": 1,
         "force_register": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "prof_inst": 1,
+        "force_note": 1,
+        "edit_rights": 1
     }]
 }, {
     "id": 10820,
@@ -7028,12 +7028,12 @@
         "name": "louyot_c",
         "title": "Pierre-Alexandre1 Louyot",
         "picture": null,
-        "visible": 1,
-        "force_register": 1,
         "invite_ass": 1,
         "prof_inst": 1,
         "force_note": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "visible": 1,
+        "force_register": 1
     }]
 }, {
     "id": 10557,
@@ -7071,8 +7071,8 @@
         "name": "carrub_f",
         "title": "Francois Carrubba",
         "picture": null,
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }]
 }, {
     "id": 10724,
@@ -7105,34 +7105,34 @@
         "name": "DPR",
         "title": "DPR",
         "picture": null,
-        "generate_token": 1,
-        "planify": 1,
         "visible": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "generate_token": 1,
+        "planify": 1
     }, {
         "type": "group",
         "login": "DPRA",
         "name": "DPRA",
         "title": "DPRA",
         "picture": null,
-        "generate_token": 1,
         "planify": 1,
-        "visible": 1
+        "visible": 1,
+        "generate_token": 1
     }, {
         "type": "group",
         "login": "groupe-eip",
         "name": "groupe-eip",
         "title": "Groupe EIP",
         "picture": null,
-        "visible": 1,
+        "generate_token": 1,
+        "assistant": 1,
+        "planify": 1,
+        "prof_inst": 1,
         "force_note": 1,
         "edit_rights": 1,
-        "force_register": 1,
+        "visible": 1,
         "invite_ass": 1,
-        "assistant": 1,
-        "generate_token": 1,
-        "prof_inst": 1,
-        "planify": 1
+        "force_register": 1
     }, {
         "type": "user",
         "login": "dupova_m",
@@ -7179,8 +7179,8 @@
         "name": "astexte_tech3",
         "title": "AsTexte Tech3",
         "picture": null,
-        "force_note": 1,
-        "visible": 1
+        "visible": 1,
+        "force_note": 1
     }, {
         "type": "user",
         "login": "kamins_d",
@@ -7198,11 +7198,11 @@
         "name": "gibert_j",
         "title": "Juliette Gibert",
         "picture": "https://cdn.local.epitech.eu/userprofil/gibert_j.bmp",
+        "force_register": 1,
+        "force_note": 1,
         "invite_ass": 1,
         "visible": 1,
-        "prof_inst": 1,
-        "force_register": 1,
-        "force_note": 1
+        "prof_inst": 1
     }]
 }, {
     "id": 10720,
@@ -7240,12 +7240,12 @@
         "name": "royer_c",
         "title": "Thibaut1 Royer",
         "picture": null,
+        "invite_ass": 1,
         "prof_inst": 1,
         "force_note": 1,
         "edit_rights": 1,
         "visible": 1,
-        "force_register": 1,
-        "invite_ass": 1
+        "force_register": 1
     }]
 }, {
     "id": 10573,
@@ -7283,20 +7283,20 @@
         "name": "Koala_Java",
         "title": "Koala Java",
         "picture": null,
-        "assistant": 1,
-        "visible": 1
+        "visible": 1,
+        "assistant": 1
     }, {
         "type": "user",
         "login": "lefeuv_a",
         "name": "lefeuv_a",
         "title": "Pierre-Yves1 Lefeuvre",
         "picture": "https://cdn.local.epitech.eu/userprofil/lefeuv_a.bmp",
+        "invite_ass": 1,
         "prof_inst": 1,
         "force_note": 1,
         "edit_rights": 1,
         "visible": 1,
-        "force_register": 1,
-        "invite_ass": 1
+        "force_register": 1
     }]
 }, {
     "id": 10882,
@@ -7377,24 +7377,24 @@
         "name": "neveu_d",
         "title": "Dominique-Renee Neveu",
         "picture": null,
-        "force_note": 1,
-        "invite_ass": 1,
-        "edit_rights": 1,
-        "visible": 1,
-        "prof_inst": 1,
-        "force_register": 1
-    }, {
-        "type": "user",
-        "login": "cholle_a",
-        "name": "cholle_a",
-        "title": "Matthieu1 Cholley",
-        "picture": null,
         "visible": 1,
         "prof_inst": 1,
         "force_register": 1,
         "force_note": 1,
         "invite_ass": 1,
         "edit_rights": 1
+    }, {
+        "type": "user",
+        "login": "cholle_a",
+        "name": "cholle_a",
+        "title": "Matthieu1 Cholley",
+        "picture": null,
+        "force_register": 1,
+        "force_note": 1,
+        "invite_ass": 1,
+        "edit_rights": 1,
+        "visible": 1,
+        "prof_inst": 1
     }]
 }, {
     "id": 10832,
@@ -7475,12 +7475,12 @@
         "name": "armagn_b",
         "title": "Amandine1 Armagnacq",
         "picture": null,
-        "visible": 1,
-        "force_register": 1,
         "invite_ass": 1,
         "prof_inst": 1,
         "force_note": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "visible": 1,
+        "force_register": 1
     }]
 }, {
     "id": 10942,
@@ -7518,11 +7518,11 @@
         "name": "auroux_l",
         "title": "Lionel Auroux",
         "picture": null,
+        "invite_ass": 1,
         "prof_inst": 1,
         "force_note": 1,
         "visible": 1,
-        "force_register": 1,
-        "invite_ass": 1
+        "force_register": 1
     }]
 }, {
     "id": 10375,
@@ -7572,12 +7572,12 @@
         "name": "cholle_a",
         "title": "Matthieu1 Cholley",
         "picture": null,
+        "force_register": 1,
+        "force_note": 1,
         "invite_ass": 1,
         "edit_rights": 1,
         "visible": 1,
-        "prof_inst": 1,
-        "force_register": 1,
-        "force_note": 1
+        "prof_inst": 1
     }]
 }, {
     "id": 10387,
@@ -7615,12 +7615,12 @@
         "name": "cholle_a",
         "title": "Matthieu1 Cholley",
         "picture": null,
+        "invite_ass": 1,
         "prof_inst": 1,
         "force_note": 1,
         "edit_rights": 1,
         "visible": 1,
-        "force_register": 1,
-        "invite_ass": 1
+        "force_register": 1
     }]
 }, {
     "id": 10399,
@@ -7670,12 +7670,12 @@
         "name": "cholle_a",
         "title": "Matthieu1 Cholley",
         "picture": null,
+        "force_register": 1,
+        "force_note": 1,
         "invite_ass": 1,
         "edit_rights": 1,
         "visible": 1,
-        "prof_inst": 1,
-        "force_register": 1,
-        "force_note": 1
+        "prof_inst": 1
     }]
 }, {
     "id": 10877,
@@ -7713,12 +7713,12 @@
         "name": "auroux_l",
         "title": "Lionel Auroux",
         "picture": null,
+        "invite_ass": 1,
         "prof_inst": 1,
         "force_note": 1,
         "edit_rights": 1,
         "visible": 1,
-        "force_register": 1,
-        "invite_ass": 1
+        "force_register": 1
     }]
 }, {
     "id": 10485,
@@ -7913,12 +7913,12 @@
         "name": "moin_m",
         "title": "Marie Moin",
         "picture": "https://cdn.local.epitech.eu/userprofil/moin_m.bmp",
-        "visible": 1,
-        "force_register": 1,
-        "invite_ass": 1,
         "prof_inst": 1,
         "force_note": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "visible": 1,
+        "force_register": 1,
+        "invite_ass": 1
     }]
 }, {
     "id": 10725,
@@ -7951,10 +7951,10 @@
         "name": "DPR",
         "title": "DPR",
         "picture": null,
-        "generate_token": 1,
         "planify": 1,
         "visible": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "generate_token": 1
     }, {
         "type": "group",
         "login": "DPRA",
@@ -7970,24 +7970,24 @@
         "name": "groupe-eip",
         "title": "Groupe EIP",
         "picture": null,
-        "visible": 1,
-        "force_note": 1,
-        "edit_rights": 1,
         "force_register": 1,
         "invite_ass": 1,
         "assistant": 1,
         "generate_token": 1,
         "prof_inst": 1,
-        "planify": 1
+        "planify": 1,
+        "visible": 1,
+        "force_note": 1,
+        "edit_rights": 1
     }, {
         "type": "user",
         "login": "dupova_m",
         "name": "dupova_m",
         "title": "Marc Dupovac",
         "picture": null,
-        "planify": 1,
         "visible": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "planify": 1
     }]
 }, {
     "id": 10788,
@@ -8025,12 +8025,12 @@
         "name": "armagn_b",
         "title": "Amandine1 Armagnacq",
         "picture": null,
-        "prof_inst": 1,
-        "force_note": 1,
-        "edit_rights": 1,
         "visible": 1,
         "force_register": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "prof_inst": 1,
+        "force_note": 1,
+        "edit_rights": 1
     }]
 }, {
     "id": 10800,
@@ -8070,8 +8070,8 @@
         "picture": null,
         "invite_ass": 1,
         "force_register": 1,
-        "visible": 1,
         "edit_rights": 1,
+        "visible": 1,
         "prof_inst": 1,
         "force_note": 1
     }, {
@@ -8084,8 +8084,8 @@
         "planify": 1,
         "invite_ass": 1,
         "force_register": 1,
-        "visible": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "mirey_c",
@@ -8229,58 +8229,58 @@
         "name": "armagn_b",
         "title": "Amandine1 Armagnacq",
         "picture": null,
-        "force_note": 1,
+        "invite_ass": 1,
+        "force_register": 1,
         "edit_rights": 1,
+        "force_note": 1,
         "visible": 1,
         "planify": 1,
         "prof_inst": 1,
-        "generate_token": 1,
-        "force_register": 1,
-        "invite_ass": 1
+        "generate_token": 1
     }, {
         "type": "user",
         "login": "valdez_a",
         "name": "valdez_a",
         "title": "Ana Valdez",
         "picture": null,
-        "generate_token": 1,
-        "force_register": 1,
-        "invite_ass": 1,
-        "force_note": 1,
-        "edit_rights": 1,
-        "assistant": 1,
-        "visible": 1,
         "planify": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "generate_token": 1,
+        "invite_ass": 1,
+        "force_register": 1,
+        "edit_rights": 1,
+        "force_note": 1,
+        "assistant": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "pierso_e",
         "name": "pierso_e",
         "title": "Emery Pierson",
         "picture": "https://cdn.local.epitech.eu/userprofil/pierso_e.bmp",
+        "edit_rights": 1,
+        "force_note": 1,
         "assistant": 1,
         "visible": 1,
         "planify": 1,
         "prof_inst": 1,
         "generate_token": 1,
-        "force_register": 1,
         "invite_ass": 1,
-        "force_note": 1,
-        "edit_rights": 1
+        "force_register": 1
     }, {
         "type": "user",
         "login": "morgan_m",
         "name": "morgan_m",
         "title": "Melanie Morgan",
         "picture": null,
-        "force_register": 1,
-        "invite_ass": 1,
-        "force_note": 1,
-        "edit_rights": 1,
-        "visible": 1,
-        "planify": 1,
         "prof_inst": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "invite_ass": 1,
+        "force_register": 1,
+        "edit_rights": 1,
+        "force_note": 1,
+        "visible": 1,
+        "planify": 1
     }]
 }, {
     "id": 11181,
@@ -8318,24 +8318,24 @@
         "name": "armagn_b",
         "title": "Amandine1 Armagnacq",
         "picture": null,
-        "invite_ass": 1,
-        "force_register": 1,
-        "force_note": 1,
         "planify": 1,
         "visible": 1,
         "generate_token": 1,
         "prof_inst": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "invite_ass": 1,
+        "force_register": 1,
+        "force_note": 1
     }, {
         "type": "user",
         "login": "davoin_c",
         "name": "davoin_c",
         "title": "Arthur Davoine",
         "picture": null,
-        "planify": 1,
-        "visible": 1,
         "force_register": 1,
-        "force_note": 1
+        "force_note": 1,
+        "planify": 1,
+        "visible": 1
     }]
 }, {
     "id": 10837,
@@ -8373,64 +8373,52 @@
         "name": "kamenn_n",
         "title": "Nicolas Kamennoff",
         "picture": "https://cdn.local.epitech.eu/userprofil/kamenn_n.bmp",
-        "edit_rights": 1,
         "prof_inst": 1,
         "visible": 1,
         "invite_ass": 1,
         "force_note": 1,
-        "force_register": 1
+        "force_register": 1,
+        "edit_rights": 1
     }, {
         "type": "user",
         "login": "freier_a",
         "name": "freier_a",
         "title": "Niels1 Freier",
         "picture": null,
-        "force_note": 1,
-        "force_register": 1,
-        "prof_inst": 1,
         "edit_rights": 1,
         "invite_ass": 1,
-        "visible": 1
+        "visible": 1,
+        "force_note": 1,
+        "force_register": 1,
+        "prof_inst": 1
     }, {
         "type": "user",
         "login": "louyot_c",
         "name": "louyot_c",
         "title": "Pierre-Alexandre1 Louyot",
         "picture": null,
-        "prof_inst": 1,
-        "visible": 1,
         "invite_ass": 1,
         "force_note": 1,
         "force_register": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "prof_inst": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "lods_r",
         "name": "lods_r",
         "title": "Romain Lods",
         "picture": null,
-        "visible": 1,
         "force_note": 1,
         "force_register": 1,
-        "edit_rights": 1
+        "edit_rights": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "morich_a",
         "name": "morich_a",
         "title": "Theodore1 Morichau-Beauchant",
         "picture": "https://cdn.local.epitech.eu/userprofil/morich_a.bmp",
-        "edit_rights": 1,
-        "prof_inst": 1,
-        "visible": 1,
-        "invite_ass": 1,
-        "force_note": 1,
-        "force_register": 1
-    }, {
-        "type": "user",
-        "login": "royer_c",
-        "name": "royer_c",
-        "title": "Thibaut1 Royer",
-        "picture": null,
         "prof_inst": 1,
         "visible": 1,
         "invite_ass": 1,
@@ -8439,16 +8427,28 @@
         "edit_rights": 1
     }, {
         "type": "user",
-        "login": "solign_a",
-        "name": "solign_a",
-        "title": "Thomas1 Solignac",
+        "login": "royer_c",
+        "name": "royer_c",
+        "title": "Thibaut1 Royer",
         "picture": null,
-        "force_note": 1,
         "force_register": 1,
         "edit_rights": 1,
         "prof_inst": 1,
         "visible": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "force_note": 1
+    }, {
+        "type": "user",
+        "login": "solign_a",
+        "name": "solign_a",
+        "title": "Thomas1 Solignac",
+        "picture": null,
+        "prof_inst": 1,
+        "visible": 1,
+        "invite_ass": 1,
+        "force_note": 1,
+        "force_register": 1,
+        "edit_rights": 1
     }]
 }, {
     "id": 10726,
@@ -8486,15 +8486,15 @@
         "name": "groupe-eip",
         "title": "Groupe EIP",
         "picture": null,
-        "assistant": 1,
-        "generate_token": 1,
-        "prof_inst": 1,
-        "planify": 1,
         "visible": 1,
         "force_note": 1,
         "edit_rights": 1,
         "force_register": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "assistant": 1,
+        "generate_token": 1,
+        "prof_inst": 1,
+        "planify": 1
     }, {
         "type": "user",
         "login": "dupova_m",
@@ -8541,12 +8541,12 @@
         "name": "achoul_c",
         "title": "Charles Achoulin",
         "picture": "https://cdn.local.epitech.eu/userprofil/achoul_c.bmp",
-        "visible": 1,
-        "force_register": 1,
         "planify": 1,
         "prof_inst": 1,
         "force_note": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "visible": 1,
+        "force_register": 1
     }]
 }, {
     "id": 10727,
@@ -8584,15 +8584,15 @@
         "name": "groupe-eip",
         "title": "Groupe EIP",
         "picture": null,
+        "visible": 1,
+        "force_note": 1,
+        "edit_rights": 1,
+        "force_register": 1,
+        "invite_ass": 1,
         "assistant": 1,
         "generate_token": 1,
         "prof_inst": 1,
-        "planify": 1,
-        "edit_rights": 1,
-        "visible": 1,
-        "force_note": 1,
-        "force_register": 1,
-        "invite_ass": 1
+        "planify": 1
     }]
 }, {
     "id": 10729,
@@ -8630,45 +8630,45 @@
         "name": "commt4",
         "title": "Communication Presetation",
         "picture": null,
+        "assistant": 1,
+        "force_register": 1,
         "force_note": 1,
         "planify": 1,
         "generate_token": 1,
         "invite_ass": 1,
-        "edit_rights": 1,
         "visible": 1,
-        "prof_inst": 1,
-        "assistant": 1,
-        "force_register": 1
+        "edit_rights": 1,
+        "prof_inst": 1
     }, {
         "type": "group",
         "login": "groupe-eip",
         "name": "groupe-eip",
         "title": "Groupe EIP",
         "picture": null,
-        "assistant": 1,
-        "generate_token": 1,
-        "prof_inst": 1,
-        "planify": 1,
         "visible": 1,
         "force_note": 1,
         "edit_rights": 1,
         "force_register": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "assistant": 1,
+        "generate_token": 1,
+        "prof_inst": 1,
+        "planify": 1
     }, {
         "type": "user",
         "login": "eip",
         "name": "eip",
         "title": "Labeip Labeip",
         "picture": null,
-        "edit_rights": 1,
+        "generate_token": 1,
+        "invite_ass": 1,
         "visible": 1,
+        "edit_rights": 1,
         "prof_inst": 1,
         "assistant": 1,
         "force_register": 1,
         "force_note": 1,
-        "planify": 1,
-        "generate_token": 1,
-        "invite_ass": 1
+        "planify": 1
     }]
 }, {
     "id": 10405,
@@ -8737,8 +8737,8 @@
         "name": "gotthi_y",
         "title": "Yoann Gotthilf",
         "picture": null,
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }]
 }, {
     "id": 10999,
@@ -8815,8 +8815,8 @@
         "name": "royer_c",
         "title": "Thibaut1 Royer",
         "picture": null,
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }]
 }, {
     "id": 10997,
@@ -8854,8 +8854,8 @@
         "name": "royer_c",
         "title": "Thibaut1 Royer",
         "picture": null,
-        "prof_inst": 1,
-        "visible": 1
+        "visible": 1,
+        "prof_inst": 1
     }]
 }, {
     "id": 10998,
@@ -8932,8 +8932,8 @@
         "name": "grall_t",
         "title": "Tugdual Grall",
         "picture": null,
-        "prof_inst": 1,
-        "visible": 1
+        "visible": 1,
+        "prof_inst": 1
     }]
 }, {
     "id": 11002,
@@ -8971,8 +8971,8 @@
         "name": "grall_t",
         "title": "Tugdual Grall",
         "picture": null,
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }]
 }, {
     "id": 10403,
@@ -9010,28 +9010,28 @@
         "name": "de-pey_a",
         "title": "Anne-Pierre De-Peyronnet",
         "picture": null,
-        "generate_token": 1,
-        "prof_inst": 1,
-        "force_note": 1,
         "visible": 1,
         "invite_ass": 1,
-        "force_register": 1
+        "force_register": 1,
+        "generate_token": 1,
+        "prof_inst": 1,
+        "force_note": 1
     }, {
         "type": "user",
         "login": "sarezi_b",
         "name": "sarezi_b",
         "title": "Bruno Sarezinski",
         "picture": "https://cdn.local.epitech.eu/userprofil/sarezi_b.bmp",
-        "prof_inst": 1,
-        "visible": 1
+        "visible": 1,
+        "prof_inst": 1
     }, {
         "type": "user",
         "login": "hazan_j",
         "name": "hazan_j",
         "title": "Julien Hazan",
         "picture": null,
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }]
 }, {
     "id": 11194,
@@ -9059,7 +9059,7 @@
         "invite_ass",
         "edit_rights"
     ],
-    "waiting_grades": "25",
+    "waiting_grades": "28",
     "active_promo": null,
     "open": "1",
     "title": "M - Cloud Computing",
@@ -9100,15 +9100,15 @@
         "name": "career-development-center",
         "title": "Career Development Center",
         "picture": null,
+        "assistant": 1,
+        "generate_token": 1,
+        "prof_inst": 1,
+        "planify": 1,
         "visible": 1,
         "force_note": 1,
         "edit_rights": 1,
         "force_register": 1,
-        "invite_ass": 1,
-        "assistant": 1,
-        "generate_token": 1,
-        "prof_inst": 1,
-        "planify": 1
+        "invite_ass": 1
     }]
 }, {
     "id": 10728,
@@ -9146,15 +9146,15 @@
         "name": "groupe-eip",
         "title": "Groupe EIP",
         "picture": null,
-        "visible": 1,
-        "force_note": 1,
-        "edit_rights": 1,
         "force_register": 1,
         "invite_ass": 1,
         "assistant": 1,
         "generate_token": 1,
         "prof_inst": 1,
-        "planify": 1
+        "planify": 1,
+        "visible": 1,
+        "force_note": 1,
+        "edit_rights": 1
     }]
 }, {
     "id": 11144,
@@ -9274,8 +9274,8 @@
         "name": "benham_b",
         "title": "Franck1 Benhamou",
         "picture": null,
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }, {
         "type": "user",
         "login": "benham_f",
@@ -9332,10 +9332,10 @@
         "name": "audebe_a",
         "title": "Remi1 Audebert",
         "picture": null,
+        "force_note": 1,
         "visible": 1,
         "prof_inst": 1,
-        "force_register": 1,
-        "force_note": 1
+        "force_register": 1
     }]
 }, {
     "id": 10592,
@@ -9363,7 +9363,7 @@
         "invite_ass",
         "edit_rights"
     ],
-    "waiting_grades": "20",
+    "waiting_grades": "21",
     "active_promo": null,
     "open": "1",
     "title": "M - Kernel Programming II",
@@ -9424,8 +9424,8 @@
         "name": "mailla_r",
         "title": "Arnaud Maillard",
         "picture": "https://cdn.local.epitech.eu/userprofil/mailla_r.bmp",
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }]
 }, {
     "id": 10867,
@@ -9463,8 +9463,8 @@
         "name": "mailla_r",
         "title": "Arnaud Maillard",
         "picture": "https://cdn.local.epitech.eu/userprofil/mailla_r.bmp",
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }]
 }, {
     "id": 10734,
@@ -9533,10 +9533,10 @@
         "name": "mart_s",
         "title": "Steven1 Martins",
         "picture": "https://cdn.local.epitech.eu/userprofil/mart_s.bmp",
-        "prof_inst": 1,
         "force_note": 1,
         "visible": 1,
-        "force_register": 1
+        "force_register": 1,
+        "prof_inst": 1
     }]
 }, {
     "id": 11023,
@@ -9574,18 +9574,18 @@
         "name": "ASR",
         "title": "ASR",
         "picture": null,
-        "assistant": 1,
-        "visible": 1
+        "visible": 1,
+        "assistant": 1
     }, {
         "type": "user",
         "login": "hoarau_h",
         "name": "hoarau_h",
         "title": "Benjamin1 Hoarau",
         "picture": null,
-        "visible": 1,
-        "planify": 1,
         "prof_inst": 1,
-        "generate_token": 1
+        "generate_token": 1,
+        "visible": 1,
+        "planify": 1
     }]
 }, {
     "id": 11140,
@@ -9613,7 +9613,7 @@
         "invite_ass",
         "edit_rights"
     ],
-    "waiting_grades": "29",
+    "waiting_grades": "31",
     "active_promo": null,
     "open": "1",
     "title": "M - Network - Advanced",
@@ -9623,8 +9623,8 @@
         "name": "ASR",
         "title": "ASR",
         "picture": null,
-        "assistant": 1,
-        "visible": 1
+        "visible": 1,
+        "assistant": 1
     }, {
         "type": "user",
         "login": "hoarau_h",
@@ -9661,7 +9661,7 @@
         "invite_ass",
         "edit_rights"
     ],
-    "waiting_grades": "652",
+    "waiting_grades": "651",
     "active_promo": null,
     "open": "1",
     "title": "M - Part-Time Job",
@@ -9671,8 +9671,8 @@
         "name": "chasse_m",
         "title": "Marina Chasse",
         "picture": "https://cdn.local.epitech.eu/userprofil/chasse_m.bmp",
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }]
 }, {
     "id": 11141,
@@ -9700,7 +9700,7 @@
         "invite_ass",
         "edit_rights"
     ],
-    "waiting_grades": "52",
+    "waiting_grades": "54",
     "active_promo": null,
     "open": "1",
     "title": "M - System Administration - Advanced",
@@ -9710,8 +9710,8 @@
         "name": "ASR",
         "title": "ASR",
         "picture": null,
-        "assistant": 1,
-        "visible": 1
+        "visible": 1,
+        "assistant": 1
     }, {
         "type": "user",
         "login": "hoarau_h",
@@ -9789,45 +9789,45 @@
         "name": "commt4",
         "title": "Communication Presetation",
         "picture": null,
+        "assistant": 1,
+        "force_register": 1,
         "force_note": 1,
         "planify": 1,
         "generate_token": 1,
         "invite_ass": 1,
-        "edit_rights": 1,
         "visible": 1,
-        "prof_inst": 1,
-        "assistant": 1,
-        "force_register": 1
+        "edit_rights": 1,
+        "prof_inst": 1
     }, {
         "type": "group",
         "login": "groupe-eip",
         "name": "groupe-eip",
         "title": "Groupe EIP",
         "picture": null,
-        "assistant": 1,
-        "generate_token": 1,
-        "prof_inst": 1,
-        "planify": 1,
         "visible": 1,
         "force_note": 1,
         "edit_rights": 1,
         "force_register": 1,
-        "invite_ass": 1
+        "invite_ass": 1,
+        "assistant": 1,
+        "generate_token": 1,
+        "prof_inst": 1,
+        "planify": 1
     }, {
         "type": "user",
         "login": "eip",
         "name": "eip",
         "title": "Labeip Labeip",
         "picture": null,
-        "edit_rights": 1,
+        "generate_token": 1,
+        "invite_ass": 1,
         "visible": 1,
+        "edit_rights": 1,
         "prof_inst": 1,
         "assistant": 1,
         "force_register": 1,
         "force_note": 1,
-        "planify": 1,
-        "generate_token": 1,
-        "invite_ass": 1
+        "planify": 1
     }]
 }, {
     "id": 10404,
@@ -9865,14 +9865,14 @@
         "name": "moin_m",
         "title": "Marie Moin",
         "picture": "https://cdn.local.epitech.eu/userprofil/moin_m.bmp",
+        "planify": 1,
+        "invite_ass": 1,
         "prof_inst": 1,
         "force_note": 1,
         "generate_token": 1,
         "edit_rights": 1,
         "visible": 1,
-        "force_register": 1,
-        "planify": 1,
-        "invite_ass": 1
+        "force_register": 1
     }]
 }, {
     "id": 10952,
@@ -9951,8 +9951,8 @@
         "name": "louyot_p",
         "title": "Pierre-Alexandre Louyot",
         "picture": "https://cdn.local.epitech.eu/userprofil/louyot_p.bmp",
-        "visible": 1,
-        "prof_inst": 1
+        "prof_inst": 1,
+        "visible": 1
     }]
 }, {
     "id": 10736,
