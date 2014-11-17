@@ -3,10 +3,10 @@ package eu.epitech.intra.builders;
 import eu.epitech.intra.commons.IntraURLBuilder;
 
 public class CourseACLIntraURLBuilder extends IntraURLBuilder {
-	private static final String PATH = "/course/filter";
+	private static final String PATH = "/module/%s/%s/%s/acl";
 
 	private CourseACLIntraURLBuilder(String scolarYear, String code, String codeInstance) {
-		super(String.format("/module/%s/%s/%s/acl", scolarYear, code, codeInstance), true);
+		super(String.format(PATH, scolarYear, code, codeInstance), true);
 	}
 
 	@Override
@@ -17,5 +17,4 @@ public class CourseACLIntraURLBuilder extends IntraURLBuilder {
 		final CourseACLIntraURLBuilder builder = new CourseACLIntraURLBuilder(scolarYear, code, codeInstance);
 		return builder;
 	}
-
 }
