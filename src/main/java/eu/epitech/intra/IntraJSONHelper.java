@@ -1,4 +1,4 @@
-package eu.epitech.intra.tests.domain;
+package eu.epitech.intra;
 
 import java.io.BufferedReader;
 import java.io.InputStream;
@@ -11,7 +11,7 @@ import com.fasterxml.jackson.core.JsonParser.Feature;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-public class IntraTestCaseHelper {
+public class IntraJSONHelper {
 
 	public static <T> T readTypeReference(final InputStream in, final TypeReference<T> typeRef) {
 		return readTypeReference(new BufferedReader(new InputStreamReader(in)), typeRef);

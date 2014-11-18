@@ -15,6 +15,7 @@ import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 
+import eu.epitech.intra.IntraJSONHelper;
 import eu.epitech.intra.domain.IntraACLMember;
 
 @RunWith(SpringJUnit4ClassRunner.class)
@@ -33,7 +34,7 @@ public class IntraACLMemberTestCase {
 	@Test
 	public void onTestMapIntraACLMemberObject() {
 		final InputStream in = getClass().getClassLoader().getResourceAsStream("IntraACLMemberTestCase_object.json");
-		final IntraACLMember object = IntraTestCaseHelper.readTypeReference(in, new TypeReference<IntraACLMember>() {
+		final IntraACLMember object = IntraJSONHelper.readTypeReference(in, new TypeReference<IntraACLMember>() {
 		});
 		try {
 			in.close();
@@ -46,7 +47,7 @@ public class IntraACLMemberTestCase {
 	@Test
 	public void onTestMapIntraACLMemberArray() {
 		final InputStream in = getClass().getClassLoader().getResourceAsStream("IntraACLMemberTestCase_array.json");
-		final List<IntraACLMember> objects = IntraTestCaseHelper.readTypeReference(in, new TypeReference<List<IntraACLMember>>() {
+		final List<IntraACLMember> objects = IntraJSONHelper.readTypeReference(in, new TypeReference<List<IntraACLMember>>() {
 		});
 		try {
 			in.close();
