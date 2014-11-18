@@ -15,7 +15,7 @@ import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 
-import eu.epitech.intra.IntraJSONHelper;
+import eu.epitech.intra.commons.helpers.IntraJSONHelper;
 import eu.epitech.intra.domain.IntraACLMember;
 
 @RunWith(SpringJUnit4ClassRunner.class)
