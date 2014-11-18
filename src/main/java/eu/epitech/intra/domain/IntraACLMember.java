@@ -2,49 +2,56 @@ package eu.epitech.intra.domain;
 
 import java.io.Serializable;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class IntraACLMember implements Serializable {
 	private static final long serialVersionUID = 7154040736872403713L;
 
-	private Integer edit_rights;
+	@JsonProperty(value = "edit_rights")
+	private Integer editRights;
 
-	public Integer getEdit_rights() {
-		return edit_rights;
+	public Integer getEditRights() {
+		return editRights;
 	}
 
-	public void setEdit_rights(Integer edit_rights) {
-		this.edit_rights = edit_rights;
+	public void setEditRights(Integer edit_rights) {
+		this.editRights = edit_rights;
 	}
 
-	private Integer force_note;
+	@JsonProperty(value = "force_note")
+	private Integer forceNote;
 
-	public Integer getForce_note() {
-		return force_note;
+	public Integer getForceNote() {
+		return forceNote;
 	}
 
-	public void setForce_note(Integer force_note) {
-		this.force_note = force_note;
+	public void setForceNote(Integer forceNote) {
+		this.forceNote = forceNote;
 	}
 
-	private Integer force_register;
+	@JsonProperty(value = "force_register")
+	private Integer forceRegister;
 
-	public Integer getForce_register() {
-		return force_register;
+	public Integer getForceRegister() {
+		return forceRegister;
 	}
 
-	public void setForce_register(Integer force_register) {
-		this.force_register = force_register;
+	public void setForceRegister(Integer forceRegister) {
+		this.forceRegister = forceRegister;
 	}
 
-	private Integer generate_token;
+	@JsonProperty(value = "generate_token")
+	private Integer generateToken;
 
-	public Integer getGenerate_token() {
-		return generate_token;
+	public Integer getGenerateToken() {
+		return generateToken;
 	}
 
-	public void setGenerate_token(Integer generate_token) {
-		this.generate_token = generate_token;
+	public void setGenerateToken(Integer generateToken) {
+		this.generateToken = generateToken;
 	}
 
+	@JsonProperty(value = "assistant")
 	private Integer assistant;
 
 	public Integer getAssistant() {
@@ -55,16 +62,18 @@ public class IntraACLMember implements Serializable {
 		this.assistant = assistant;
 	}
 
-	private Integer invite_ass;
+	@JsonProperty(value = "invite_ass")
+	private Integer inviteAssistants;
 
-	public Integer getInvite_ass() {
-		return invite_ass;
+	public Integer getInviteAssistants() {
+		return inviteAssistants;
 	}
 
-	public void setInvite_ass(Integer invite_ass) {
-		this.invite_ass = invite_ass;
+	public void setInviteAssistants(Integer inviteAssistants) {
+		this.inviteAssistants = inviteAssistants;
 	}
 
+	@JsonProperty(value = "login")
 	private String login;
 
 	public String getLogin() {
@@ -75,6 +84,7 @@ public class IntraACLMember implements Serializable {
 		this.login = login;
 	}
 
+	@JsonProperty(value = "name")
 	private String name;
 
 	public String getName() {
@@ -85,6 +95,7 @@ public class IntraACLMember implements Serializable {
 		this.name = name;
 	}
 
+	@JsonProperty(value = "picture")
 	private String picture;
 
 	public String getPicture() {
@@ -95,6 +106,7 @@ public class IntraACLMember implements Serializable {
 		this.picture = picture;
 	}
 
+	@JsonProperty(value = "planify")
 	private Integer planify;
 
 	public Integer getPlanify() {
@@ -105,16 +117,18 @@ public class IntraACLMember implements Serializable {
 		this.planify = planify;
 	}
 
-	private Integer prof_inst;
+	@JsonProperty(value = "prof_inst")
+	private Integer profInstance;
 
-	public Integer getProf_inst() {
-		return prof_inst;
+	public Integer getProfInstance() {
+		return profInstance;
 	}
 
-	public void setProf_inst(Integer prof_inst) {
-		this.prof_inst = prof_inst;
+	public void setProfInstance(Integer profInstance) {
+		this.profInstance = profInstance;
 	}
 
+	@JsonProperty(value = "title")
 	private String title;
 
 	public String getTitle() {
@@ -125,6 +139,7 @@ public class IntraACLMember implements Serializable {
 		this.title = title;
 	}
 
+	@JsonProperty(value = "type")
 	private IntraACLMemberType type;
 
 	public IntraACLMemberType getType() {
@@ -135,6 +150,7 @@ public class IntraACLMember implements Serializable {
 		this.type = type;
 	}
 
+	@JsonProperty(value = "visible")
 	private Integer visible;
 
 	public Integer getVisible() {

@@ -3,9 +3,12 @@ package eu.epitech.intra.domain;
 import java.io.Serializable;
 import java.util.Collection;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class IntraACL implements Serializable {
 	private static final long serialVersionUID = -4722935611788842136L;
 
+	@JsonProperty(value = "type")
 	private String type;
 
 	public String getType() {
@@ -16,6 +19,7 @@ public class IntraACL implements Serializable {
 		this.type = type;
 	}
 
+	@JsonProperty(value = "name")
 	private String name;
 
 	public String getName() {
@@ -26,6 +30,7 @@ public class IntraACL implements Serializable {
 		this.name = name;
 	}
 
+	@JsonProperty(value = "title")
 	private String title;
 
 	public String getTitle() {
@@ -36,6 +41,7 @@ public class IntraACL implements Serializable {
 		this.title = title;
 	}
 
+	@JsonProperty(value = "members")
 	private Collection<IntraACLMember> members;
 
 	public Collection<IntraACLMember> getMembers() {

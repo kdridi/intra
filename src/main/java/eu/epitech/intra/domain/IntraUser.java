@@ -2,9 +2,12 @@ package eu.epitech.intra.domain;
 
 import java.io.Serializable;
 
+import com.fasterxml.jackson.annotation.JsonProperty;
+
 public class IntraUser implements Serializable {
 	private static final long serialVersionUID = 7678311136075358488L;
 
+	@JsonProperty(value = "title")
 	private String title;
 
 	public String getTitle() {
@@ -15,6 +18,7 @@ public class IntraUser implements Serializable {
 		this.title = title;
 	}
 
+	@JsonProperty(value = "type")
 	private IntraUserType type;
 
 	public IntraUserType getType() {
@@ -25,6 +29,7 @@ public class IntraUser implements Serializable {
 		this.type = type;
 	}
 
+	@JsonProperty(value = "login")
 	private String login;
 
 	public String getLogin() {
@@ -35,6 +40,7 @@ public class IntraUser implements Serializable {
 		this.login = login;
 	}
 
+	@JsonProperty(value = "picture")
 	private String picture;
 
 	public String getPicture() {
@@ -45,27 +51,30 @@ public class IntraUser implements Serializable {
 		this.picture = picture;
 	}
 
-	private String course_code;
+	@JsonProperty(value = "course_code")
+	private String courseCode;
 
-	public String getCourse_code() {
-		return course_code;
+	public String getCourseCode() {
+		return courseCode;
 	}
 
-	public void setCourse_code(String course_code) {
-		this.course_code = course_code;
+	public void setCourseCode(String courseCode) {
+		this.courseCode = courseCode;
 	}
 
+	@JsonProperty(value = "promo")
 	private String promo;
 
 	public String getPromo() {
 		return promo;
 	}
 
-	private String course;
-
 	public void setPromo(String promo) {
 		this.promo = promo;
 	}
+
+	@JsonProperty(value = "course")
+	private String course;
 
 	public String getCourse() {
 		return course;
@@ -75,14 +84,15 @@ public class IntraUser implements Serializable {
 		this.course = course;
 	}
 
-	private String picture_fun;
+	@JsonProperty(value = "picture_fun")
+	private String pictureFun;
 
-	public String getPicture_fun() {
-		return picture_fun;
+	public String getPictureFun() {
+		return pictureFun;
 	}
 
-	public void setPicture_fun(String picture_fun) {
-		this.picture_fun = picture_fun;
+	public void setPictureFun(String pictureFun) {
+		this.pictureFun = pictureFun;
 	}
 
 }
