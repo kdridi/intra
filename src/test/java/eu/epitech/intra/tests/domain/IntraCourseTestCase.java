@@ -1,5 +1,7 @@
 package eu.epitech.intra.tests.domain;
 
+import static org.junit.Assert.assertEquals;
+
 import java.io.InputStream;
 import java.util.List;
 
@@ -39,7 +41,8 @@ public class IntraCourseTestCase {
 			e.printStackTrace();
 			throw new RuntimeException(e);
 		}
-		System.out.println(object);
+		assertEquals(IntraCourse.class, object.getClass());
+
 	}
 
 	@Test
@@ -54,7 +57,7 @@ public class IntraCourseTestCase {
 			throw new RuntimeException(e);
 		}
 		for (Object object : objects) {
-			System.out.println(object);
+			assertEquals(IntraCourse.class, object.getClass());
 		}
 		System.out.println(objects.size());
 	}

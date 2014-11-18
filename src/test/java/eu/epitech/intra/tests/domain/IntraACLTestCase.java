@@ -1,5 +1,7 @@
 package eu.epitech.intra.tests.domain;
 
+import static org.junit.Assert.assertEquals;
+
 import java.io.InputStream;
 import java.util.List;
 
@@ -31,29 +33,29 @@ public class IntraACLTestCase {
 	@Test
 	public void onTestMapIntraACLObject() {
 		final InputStream in = getClass().getClassLoader().getResourceAsStream("IntraACLTestCase_object.json");
-		final IntraACL user = IntraTestCaseHelper.readTypeReference(in, new TypeReference<IntraACL>() {
+		final IntraACL object = IntraTestCaseHelper.readTypeReference(in, new TypeReference<IntraACL>() {
 		});
 		try {
 			in.close();
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
-		System.out.println(user);
+		assertEquals(IntraACL.class, object.getClass());
 	}
 
 	@Test
 	public void onTestMapIntraACLArray() {
 		final InputStream in = getClass().getClassLoader().getResourceAsStream("IntraACLTestCase_array.json");
-		final List<IntraACL> users = IntraTestCaseHelper.readTypeReference(in, new TypeReference<List<IntraACL>>() {
+		final List<IntraACL> objects = IntraTestCaseHelper.readTypeReference(in, new TypeReference<List<IntraACL>>() {
 		});
 		try {
 			in.close();
 		} catch (Exception e) {
 			throw new RuntimeException(e);
 		}
-		for (Object user : users) {
-			System.out.println(user);
+		for (Object object : objects) {
+			assertEquals(IntraACL.class, object.getClass());
 		}
-		System.out.println(users.size());
+		System.out.println(objects.size());
 	}
 }
