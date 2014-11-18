@@ -1,0 +1,81 @@
+// Epitech JSON webservice ...
+[{
+    "type": "group",
+    "login": "DPN",
+    "name": "DPN",
+    "title": "DPN",
+    "picture": null,
+    "edit_rights": 1,
+    "planify": 1,
+    "force_note": 1,
+    "force_register": 1,
+    "invite_ass": 1,
+    "visible": 1,
+    "generate_token": 1
+}, {
+    "type": "user",
+    "login": "ayache_e",
+    "name": "ayache_e",
+    "title": "Emmanuelle Ayache",
+    "picture": null,
+    "visible": 1
+}, {
+    "type": "user",
+    "login": "medega_j",
+    "name": "medega_j",
+    "title": "Jerome Medegan",
+    "picture": "https://cdn.local.epitech.eu/userprofil/medega_j.bmp",
+    "prof_inst": 1,
+    "visible": 1,
+    "force_register": 1,
+    "planify": 1,
+    "generate_token": 1
+}, {
+    "type": "user",
+    "login": "moise_j",
+    "name": "moise_j",
+    "title": "Joelle Moise",
+    "picture": "https://cdn.local.epitech.eu/userprofil/moise_j.bmp",
+    "force_note": 1,
+    "visible": 1,
+    "force_register": 1
+}, {
+    "type": "user",
+    "login": "levoi_l",
+    "name": "levoi_l",
+    "title": "Leslie Levoi",
+    "picture": null,
+    "visible": 1
+}, {
+    "type": "user",
+    "login": "sasson_m",
+    "name": "sasson_m",
+    "title": "Michel Sasson",
+    "picture": null,
+    "visible": 1
+}, {
+    "type": "user",
+    "login": "chiu_p",
+    "name": "chiu_p",
+    "title": "Philippe Chiu",
+    "picture": null,
+    "visible": 1
+}, {
+    "type": "user",
+    "login": "leger_i",
+    "name": "leger_i",
+    "title": "Pierre-Jean Leger",
+    "picture": "https://cdn.local.epitech.eu/userprofil/leger_i.bmp",
+    "planify": 1,
+    "visible": 1,
+    "generate_token": 1,
+    "prof_inst": 1,
+    "force_register": 1
+}, {
+    "type": "user",
+    "login": "lods_r",
+    "name": "lods_r",
+    "title": "Romain Lods",
+    "picture": null,
+    "visible": 1
+}]

@@ -1,0 +1,16 @@
+// Epitech JSON webservice ...
+{
+    "edit_rights": 1,
+    "force_note": 1,
+    "force_register": 1,
+    "generate_token": 1,
+    "invite_ass": 1,
+    "login": "DPN",
+    "name": "DPN",
+    "picture": "https://cdn.local.epitech.eu/userprofil/leger_i.bmp",
+    "planify": 1,
+    "prof_inst": 1,
+    "title": "DPN",
+    "type": "group",
+    "visible": 1
+}

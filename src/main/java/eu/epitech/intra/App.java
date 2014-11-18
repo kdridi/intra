@@ -33,6 +33,12 @@ import eu.epitech.intra.commons.helpers.HttpClientHelper;
 
 public class App {
 	public static void main(String[] args) throws Exception {
+		final CourseACLIntraURLBuilder builder = CourseACLIntraURLBuilder.newBuilder("2014", "B-ANG-050", "PAR-1-1");
+		final JSON json = HttpClientHelper.getJSONArray(builder);
+		System.out.println(json.toString(4));
+	}
+
+	public static void main2(String[] args) throws Exception {
 		boolean execute = false;
 		if (execute) {
 			final CourseACLIntraURLBuilder builder = CourseACLIntraURLBuilder.newBuilder("2014", "B-ANG-050", "PAR-1-1");

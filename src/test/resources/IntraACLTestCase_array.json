@@ -1,0 +1,416 @@
+// Epitech JSON webservice ...
+[{
+    "type": "-",
+    "name": "Pays-France",
+    "title": "Pays France",
+    "members": [{
+        "type": "group",
+        "login": "DPN",
+        "name": "DPN",
+        "title": "DPN",
+        "picture": null,
+        "edit_rights": 1,
+        "planify": 1,
+        "force_note": 1,
+        "force_register": 1,
+        "invite_ass": 1,
+        "visible": 1,
+        "generate_token": 1
+    }, {
+        "type": "user",
+        "login": "ayache_e",
+        "name": "ayache_e",
+        "title": "Emmanuelle Ayache",
+        "picture": null,
+        "visible": 1
+    }, {
+        "type": "user",
+        "login": "medega_j",
+        "name": "medega_j",
+        "title": "Jerome Medegan",
+        "picture": "https://cdn.local.epitech.eu/userprofil/medega_j.bmp",
+        "prof_inst": 1,
+        "visible": 1,
+        "force_register": 1,
+        "planify": 1,
+        "generate_token": 1
+    }, {
+        "type": "user",
+        "login": "moise_j",
+        "name": "moise_j",
+        "title": "Joelle Moise",
+        "picture": "https://cdn.local.epitech.eu/userprofil/moise_j.bmp",
+        "force_note": 1,
+        "visible": 1,
+        "force_register": 1
+    }, {
+        "type": "user",
+        "login": "levoi_l",
+        "name": "levoi_l",
+        "title": "Leslie Levoi",
+        "picture": null,
+        "visible": 1
+    }, {
+        "type": "user",
+        "login": "sasson_m",
+        "name": "sasson_m",
+        "title": "Michel Sasson",
+        "picture": null,
+        "visible": 1
+    }, {
+        "type": "user",
+        "login": "chiu_p",
+        "name": "chiu_p",
+        "title": "Philippe Chiu",
+        "picture": null,
+        "visible": 1
+    }, {
+        "type": "user",
+        "login": "leger_i",
+        "name": "leger_i",
+        "title": "Pierre-Jean Leger",
+        "picture": "https://cdn.local.epitech.eu/userprofil/leger_i.bmp",
+        "planify": 1,
+        "visible": 1,
+        "generate_token": 1,
+        "prof_inst": 1,
+        "force_register": 1
+    }, {
+        "type": "user",
+        "login": "lods_r",
+        "name": "lods_r",
+        "title": "Romain Lods",
+        "picture": null,
+        "visible": 1
+    }]
+}, {
+    "type": "-",
+    "name": "Ville-Paris",
+    "title": "Ville Paris",
+    "members": [{
+        "type": "group",
+        "login": "ADM_Paris",
+        "name": "ADM_Paris",
+        "title": "ADM Paris",
+        "picture": null,
+        "force_note": 1,
+        "visible": 1,
+        "force_register": 1,
+        "invite_ass": 1,
+        "generate_token": 1
+    }, {
+        "type": "user",
+        "login": "armagn_b",
+        "name": "armagn_b",
+        "title": "Amandine1 Armagnacq",
+        "picture": null,
+        "generate_token": 1,
+        "force_register": 1,
+        "invite_ass": 1,
+        "planify": 1,
+        "edit_rights": 1,
+        "force_note": 1,
+        "prof_inst": 1,
+        "visible": 1
+    }, {
+        "type": "group",
+        "login": "ape_paris",
+        "name": "ape_paris",
+        "title": "APE_PARIS",
+        "picture": null,
+        "prof_inst": 1,
+        "visible": 1
+    }, {
+        "type": "user",
+        "login": "hoarau_h",
+        "name": "hoarau_h",
+        "title": "Benjamin1 Hoarau",
+        "picture": null,
+        "force_note": 1,
+        "force_register": 1,
+        "edit_rights": 1,
+        "invite_ass": 1,
+        "visible": 1
+    }, {
+        "type": "user",
+        "login": "maitre_d",
+        "name": "maitre_d",
+        "title": "Brieuc Maitre",
+        "picture": "https://cdn.local.epitech.eu/userprofil/maitre_d.bmp",
+        "assistant": 1,
+        "planify": 1,
+        "edit_rights": 1,
+        "invite_ass": 1,
+        "visible": 1,
+        "generate_token": 1,
+        "prof_inst": 1,
+        "force_note": 1,
+        "force_register": 1
+    }, {
+        "type": "user",
+        "login": "quilgh_a",
+        "name": "quilgh_a",
+        "title": "Bruno1 Quilghini",
+        "picture": null,
+        "force_note": 1,
+        "visible": 1,
+        "invite_ass": 1,
+        "edit_rights": 1,
+        "force_register": 1
+    }, {
+        "type": "user",
+        "login": "ayache_e",
+        "name": "ayache_e",
+        "title": "Emmanuelle Ayache",
+        "picture": null,
+        "visible": 1
+    }, {
+        "type": "user",
+        "login": "didiot_e",
+        "name": "didiot_e",
+        "title": "Emmanuelle Didiot",
+        "picture": "https://cdn.local.epitech.eu/userprofil/didiot_e.bmp",
+        "visible": 1,
+        "invite_ass": 1,
+        "edit_rights": 1,
+        "generate_token": 1,
+        "force_register": 1,
+        "planify": 1
+    }, {
+        "type": "user",
+        "login": "pouill_b",
+        "name": "pouill_b",
+        "title": "Guillaume1 Pouillet",
+        "picture": "https://cdn.local.epitech.eu/userprofil/pouill_b.bmp",
+        "force_register": 1,
+        "planify": 1,
+        "visible": 1,
+        "invite_ass": 1,
+        "edit_rights": 1,
+        "generate_token": 1,
+        "force_note": 1
+    }, {
+        "type": "user",
+        "login": "chain_a",
+        "name": "chain_a",
+        "title": "Hedy1 Chain",
+        "picture": null,
+        "prof_inst": 1,
+        "force_register": 1,
+        "force_note": 1,
+        "visible": 1
+    }, {
+        "type": "user",
+        "login": "medega_j",
+        "name": "medega_j",
+        "title": "Jerome Medegan",
+        "picture": "https://cdn.local.epitech.eu/userprofil/medega_j.bmp",
+        "edit_rights": 1,
+        "invite_ass": 1,
+        "generate_token": 1,
+        "force_note": 1,
+        "force_register": 1,
+        "visible": 1,
+        "planify": 1
+    }, {
+        "type": "user",
+        "login": "moise_j",
+        "name": "moise_j",
+        "title": "Joelle Moise",
+        "picture": "https://cdn.local.epitech.eu/userprofil/moise_j.bmp",
+        "visible": 1,
+        "planify": 1,
+        "edit_rights": 1,
+        "invite_ass": 1,
+        "generate_token": 1,
+        "force_note": 1,
+        "force_register": 1
+    }, {
+        "type": "user",
+        "login": "dridi_e",
+        "name": "dridi_e",
+        "title": "Karim Dridi",
+        "picture": null,
+        "planify": 1,
+        "edit_rights": 1,
+        "force_note": 1,
+        "prof_inst": 1,
+        "visible": 1,
+        "generate_token": 1,
+        "assistant": 1,
+        "force_register": 1,
+        "invite_ass": 1
+    }, {
+        "type": "user",
+        "login": "levoi_l",
+        "name": "levoi_l",
+        "title": "Leslie Levoi",
+        "picture": null,
+        "planify": 1,
+        "edit_rights": 1,
+        "invite_ass": 1,
+        "visible": 1
+    }, {
+        "type": "user",
+        "login": "fayard_a",
+        "name": "fayard_a",
+        "title": "Loic1 Fayard",
+        "picture": "https://cdn.local.epitech.eu/userprofil/fayard_a.bmp",
+        "force_register": 1,
+        "planify": 1,
+        "force_note": 1,
+        "visible": 1,
+        "invite_ass": 1,
+        "edit_rights": 1,
+        "generate_token": 1
+    }, {
+        "type": "user",
+        "login": "crespo_m",
+        "name": "crespo_m",
+        "title": "Magali Crespo",
+        "picture": "https://cdn.local.epitech.eu/userprofil/crespo_m.bmp",
+        "edit_rights": 1,
+        "generate_token": 1,
+        "planify": 1,
+        "visible": 1
+    }, {
+        "type": "user",
+        "login": "dupova_m",
+        "name": "dupova_m",
+        "title": "Marc Dupovac",
+        "picture": null,
+        "generate_token": 1,
+        "planify": 1,
+        "force_register": 1,
+        "edit_rights": 1,
+        "invite_ass": 1,
+        "visible": 1
+    }, {
+        "type": "user",
+        "login": "chasse_m",
+        "name": "chasse_m",
+        "title": "Marina Chasse",
+        "picture": "https://cdn.local.epitech.eu/userprofil/chasse_m.bmp",
+        "prof_inst": 1,
+        "force_register": 1,
+        "visible": 1,
+        "invite_ass": 1,
+        "assistant": 1,
+        "force_note": 1,
+        "edit_rights": 1,
+        "generate_token": 1,
+        "planify": 1
+    }, {
+        "type": "user",
+        "login": "deslog_m",
+        "name": "deslog_m",
+        "title": "Mathias Desloges",
+        "picture": "https://cdn.local.epitech.eu/userprofil/deslog_m.bmp",
+        "force_register": 1,
+        "invite_ass": 1,
+        "planify": 1,
+        "edit_rights": 1,
+        "force_note": 1,
+        "visible": 1,
+        "generate_token": 1
+    }, {
+        "type": "group",
+        "login": "relations-internationales",
+        "name": "relations-internationales",
+        "title": "Relations Internationales",
+        "picture": null,
+        "visible": 1
+    }, {
+        "type": "user",
+        "login": "lods_r",
+        "name": "lods_r",
+        "title": "Romain Lods",
+        "picture": null,
+        "visible": 1,
+        "prof_inst": 1
+    }, {
+        "type": "user",
+        "login": "marhic_s",
+        "name": "marhic_s",
+        "title": "Sonia Marhic",
+        "picture": null,
+        "visible": 1
+    }, {
+        "type": "user",
+        "login": "viger_s",
+        "name": "viger_s",
+        "title": "Sophie Viger",
+        "picture": "https://cdn.local.epitech.eu/userprofil/viger_s.bmp",
+        "visible": 1,
+        "edit_rights": 1
+    }, {
+        "type": "user",
+        "login": "walle_s",
+        "name": "walle_s",
+        "title": "Stephanie Walle",
+        "picture": "https://cdn.local.epitech.eu/userprofil/walle_s.bmp",
+        "edit_rights": 1,
+        "visible": 1
+    }, {
+        "type": "user",
+        "login": "mortre_x",
+        "name": "mortre_x",
+        "title": "Xavier Mortreux",
+        "picture": "https://cdn.local.epitech.eu/userprofil/mortre_x.bmp",
+        "edit_rights": 1,
+        "invite_ass": 1,
+        "generate_token": 1,
+        "force_note": 1,
+        "force_register": 1,
+        "visible": 1,
+        "planify": 1
+    }, {
+        "type": "user",
+        "login": "dataz",
+        "name": "dataz",
+        "title": "Z Dataz",
+        "picture": null,
+        "visible": 1
+    }]
+}, {
+    "type": "-",
+    "name": "ACL-167593",
+    "title": "ACL 167593",
+    "members": [{
+        "type": "user",
+        "login": "valdez_a",
+        "name": "valdez_a",
+        "title": "Ana Valdez",
+        "picture": null,
+        "invite_ass": 1,
+        "visible": 1,
+        "force_note": 1,
+        "force_register": 1,
+        "edit_rights": 1,
+        "prof_inst": 1
+    }, {
+        "type": "user",
+        "login": "pierso_e",
+        "name": "pierso_e",
+        "title": "Emery Pierson",
+        "picture": "https://cdn.local.epitech.eu/userprofil/pierso_e.bmp",
+        "force_register": 1,
+        "edit_rights": 1,
+        "prof_inst": 1,
+        "invite_ass": 1,
+        "visible": 1,
+        "force_note": 1
+    }, {
+        "type": "user",
+        "login": "morgan_m",
+        "name": "morgan_m",
+        "title": "Melanie Morgan",
+        "picture": null,
+        "visible": 1,
+        "force_note": 1,
+        "force_register": 1,
+        "edit_rights": 1,
+        "prof_inst": 1,
+        "invite_ass": 1
+    }]
+}]
