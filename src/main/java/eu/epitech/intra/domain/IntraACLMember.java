@@ -8,68 +8,68 @@ public class IntraACLMember implements Serializable {
 	private static final long serialVersionUID = 7154040736872403713L;
 
 	@JsonProperty(value = "edit_rights")
-	private Integer editRights;
+	private Boolean editRights;
 
-	public Integer getEditRights() {
+	public Boolean getEditRights() {
 		return editRights;
 	}
 
-	public void setEditRights(Integer edit_rights) {
+	public void setEditRights(Boolean edit_rights) {
 		this.editRights = edit_rights;
 	}
 
 	@JsonProperty(value = "force_note")
-	private Integer forceNote;
+	private Boolean forceNote;
 
-	public Integer getForceNote() {
+	public Boolean getForceNote() {
 		return forceNote;
 	}
 
-	public void setForceNote(Integer forceNote) {
+	public void setForceNote(Boolean forceNote) {
 		this.forceNote = forceNote;
 	}
 
 	@JsonProperty(value = "force_register")
-	private Integer forceRegister;
+	private Boolean forceRegister;
 
-	public Integer getForceRegister() {
+	public Boolean getForceRegister() {
 		return forceRegister;
 	}
 
-	public void setForceRegister(Integer forceRegister) {
+	public void setForceRegister(Boolean forceRegister) {
 		this.forceRegister = forceRegister;
 	}
 
 	@JsonProperty(value = "generate_token")
-	private Integer generateToken;
+	private Boolean generateToken;
 
-	public Integer getGenerateToken() {
+	public Boolean getGenerateToken() {
 		return generateToken;
 	}
 
-	public void setGenerateToken(Integer generateToken) {
+	public void setGenerateToken(Boolean generateToken) {
 		this.generateToken = generateToken;
 	}
 
 	@JsonProperty(value = "assistant")
-	private Integer assistant;
+	private Boolean assistant;
 
-	public Integer getAssistant() {
+	public Boolean getAssistant() {
 		return assistant;
 	}
 
-	public void setAssistant(Integer assistant) {
+	public void setAssistant(Boolean assistant) {
 		this.assistant = assistant;
 	}
 
 	@JsonProperty(value = "invite_ass")
-	private Integer inviteAssistants;
+	private Boolean inviteAssistants;
 
-	public Integer getInviteAssistants() {
+	public Boolean getInviteAssistants() {
 		return inviteAssistants;
 	}
 
-	public void setInviteAssistants(Integer inviteAssistants) {
+	public void setInviteAssistants(Boolean inviteAssistants) {
 		this.inviteAssistants = inviteAssistants;
 	}
 
@@ -107,24 +107,24 @@ public class IntraACLMember implements Serializable {
 	}
 
 	@JsonProperty(value = "planify")
-	private Integer planify;
+	private Boolean planify;
 
-	public Integer getPlanify() {
+	public Boolean getPlanify() {
 		return planify;
 	}
 
-	public void setPlanify(Integer planify) {
+	public void setPlanify(Boolean planify) {
 		this.planify = planify;
 	}
 
 	@JsonProperty(value = "prof_inst")
-	private Integer profInstance;
+	private Boolean profInstance;
 
-	public Integer getProfInstance() {
+	public Boolean getProfInstance() {
 		return profInstance;
 	}
 
-	public void setProfInstance(Integer profInstance) {
+	public void setProfInstance(Boolean profInstance) {
 		this.profInstance = profInstance;
 	}
 
@@ -151,13 +151,13 @@ public class IntraACLMember implements Serializable {
 	}
 
 	@JsonProperty(value = "visible")
-	private Integer visible;
+	private Boolean visible;
 
-	public Integer getVisible() {
+	public Boolean getVisible() {
 		return visible;
 	}
 
-	public void setVisible(Integer visible) {
+	public void setVisible(Boolean visible) {
 		this.visible = visible;
 	}
 
