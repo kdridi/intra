@@ -1,4 +1,4 @@
-package eu.epitech.intra;
+package eu.epitech.intra.tests.domain;
 
 import java.io.BufferedReader;
 import java.io.InputStream;

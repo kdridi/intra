@@ -1,4 +1,4 @@
-package eu.epitech.intra;
+package eu.epitech.intra.tests.domain;
 
 import java.io.InputStream;
 import java.util.List;
@@ -13,11 +13,11 @@ import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 
-import eu.epitech.intra.domain.IntraUser;
+import eu.epitech.intra.domain.IntraCourse;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(loader = AnnotationConfigContextLoader.class)
-public class IntraUserTestCase {
+public class IntraCourseTestCase {
 	@Before
 	public void onBeforeTestCase() {
 		System.out.println("onBeforeTestCase");
@@ -29,32 +29,34 @@ public class IntraUserTestCase {
 	}
 
 	@Test
-	public void onTestMapIntraUserObject() {
-		final InputStream in = getClass().getClassLoader().getResourceAsStream("IntraUserTestCase_object.json");
-		final IntraUser user = IntraTestCaseHelper.readTypeReference(in, new TypeReference<IntraUser>() {
+	public void onTestMapIntraCourseObject() {
+		final InputStream in = getClass().getClassLoader().getResourceAsStream("IntraCourseTestCase_object.json");
+		final IntraCourse object = IntraTestCaseHelper.readTypeReference(in, new TypeReference<IntraCourse>() {
 		});
 		try {
 			in.close();
 		} catch (Exception e) {
+			e.printStackTrace();
 			throw new RuntimeException(e);
 		}
-		System.out.println(user);
+		System.out.println(object);
 	}
 
 	@Test
-	public void onTestMapIntraUserArray() {
-		final InputStream in = getClass().getClassLoader().getResourceAsStream("IntraUserTestCase_array.json");
-		final List<IntraUser> users = IntraTestCaseHelper.readTypeReference(in, new TypeReference<List<IntraUser>>() {
+	public void onTestMapIntraCourseArray() {
+		final InputStream in = getClass().getClassLoader().getResourceAsStream("IntraCourseTestCase_array.json");
+		final List<IntraCourse> objects = IntraTestCaseHelper.readTypeReference(in, new TypeReference<List<IntraCourse>>() {
 		});
 		try {
 			in.close();
 		} catch (Exception e) {
+			e.printStackTrace();
 			throw new RuntimeException(e);
 		}
-		for (Object user : users) {
-			System.out.println(user);
+		for (Object object : objects) {
+			System.out.println(object);
 		}
-		System.out.println(users.size());
+		System.out.println(objects.size());
 	}
 
 }

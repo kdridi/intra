@@ -1,4 +1,4 @@
-package eu.epitech.intra;
+package eu.epitech.intra.tests.domain;
 
 import java.io.InputStream;
 import java.util.List;
@@ -13,11 +13,11 @@ import org.springframework.test.context.support.AnnotationConfigContextLoader;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 
-import eu.epitech.intra.domain.IntraACL;
+import eu.epitech.intra.domain.IntraUser;
 
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration(loader = AnnotationConfigContextLoader.class)
-public class IntraACLTestCase {
+public class IntraUserTestCase {
 	@Before
 	public void onBeforeTestCase() {
 		System.out.println("onBeforeTestCase");
@@ -29,9 +29,9 @@ public class IntraACLTestCase {
 	}
 
 	@Test
-	public void onTestMapIntraACLObject() {
-		final InputStream in = getClass().getClassLoader().getResourceAsStream("IntraACLTestCase_object.json");
-		final IntraACL user = IntraTestCaseHelper.readTypeReference(in, new TypeReference<IntraACL>() {
+	public void onTestMapIntraUserObject() {
+		final InputStream in = getClass().getClassLoader().getResourceAsStream("IntraUserTestCase_object.json");
+		final IntraUser user = IntraTestCaseHelper.readTypeReference(in, new TypeReference<IntraUser>() {
 		});
 		try {
 			in.close();
@@ -42,9 +42,9 @@ public class IntraACLTestCase {
 	}
 
 	@Test
-	public void onTestMapIntraACLArray() {
-		final InputStream in = getClass().getClassLoader().getResourceAsStream("IntraACLTestCase_array.json");
-		final List<IntraACL> users = IntraTestCaseHelper.readTypeReference(in, new TypeReference<List<IntraACL>>() {
+	public void onTestMapIntraUserArray() {
+		final InputStream in = getClass().getClassLoader().getResourceAsStream("IntraUserTestCase_array.json");
+		final List<IntraUser> users = IntraTestCaseHelper.readTypeReference(in, new TypeReference<List<IntraUser>>() {
 		});
 		try {
 			in.close();
@@ -56,4 +56,5 @@ public class IntraACLTestCase {
 		}
 		System.out.println(users.size());
 	}
+
 }
