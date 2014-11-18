@@ -1,0 +1,32 @@
+// Epitech JSON webservice ...
+{
+    "id": 10858,
+    "title_cn": null,
+    "semester": 0,
+    "num": "1",
+    "begin": "2014-10-12",
+    "end": "2015-05-25",
+    "end_register": "2015-01-13",
+    "scolaryear": 2014,
+    "code": "G-CHI-050",
+    "codeinstance": "PAR-0-1",
+    "location_title": "Paris",
+    "instance_location": "FR\/PAR",
+    "flags": "0",
+    "credits": "2",
+    "rights": [
+        "visible",
+        "prof_inst",
+        "assistant",
+        "force_register",
+        "force_note",
+        "planify",
+        "generate_token",
+        "invite_ass",
+        "edit_rights"
+    ],
+    "waiting_grades": "120",
+    "active_promo": null,
+    "open": "1",
+    "title": "Chinois - debutant"
+}
