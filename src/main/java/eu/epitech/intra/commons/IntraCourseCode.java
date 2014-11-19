@@ -1,6 +1,6 @@
 package eu.epitech.intra.commons;
 
-public enum IntraCourse {
+public enum IntraCourseCode {
 
 	// @formatter:off
 	SAMSUNG_WAC("Samsung-WAC"),
@@ -16,7 +16,7 @@ public enum IntraCourse {
 
 	private String name;
 
-	IntraCourse(String name) {
+	IntraCourseCode(String name) {
 		this.name = name;
 	}
 

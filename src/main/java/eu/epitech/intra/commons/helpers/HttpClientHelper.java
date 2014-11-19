@@ -1,6 +1,7 @@
 package eu.epitech.intra.commons.helpers;
 
 import java.io.InputStream;
+import java.io.StringReader;
 import java.io.StringWriter;
 import java.util.ArrayList;
 import java.util.List;
@@ -18,6 +19,8 @@ import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.methods.HttpUriRequest;
 import org.apache.http.impl.client.HttpClientBuilder;
 import org.apache.http.message.BasicNameValuePair;
+
+import com.fasterxml.jackson.core.type.TypeReference;
 
 import eu.epitech.intra.builders.LoginIntraURLBuilder;
 import eu.epitech.intra.commons.IntraURLBuilder;
@@ -50,6 +53,11 @@ public class HttpClientHelper {
 
 		return client;
 
+	}
+
+	public static <T> T getResponseContentWithTypeReference(final IntraURLBuilder builder, final TypeReference<T> typeRef) {
+		final HttpGet request = new HttpGet(builder.build());
+		return IntraJSONHelper.readTypeReference(new StringReader(getResponseContent(request)), typeRef);
 	}
 
 	private static final String getResponseContent(final HttpClient client, final HttpUriRequest request) {

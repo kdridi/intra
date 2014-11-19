@@ -3,16 +3,16 @@ package eu.epitech.intra.builders;
 import java.util.Set;
 import java.util.TreeSet;
 
-import eu.epitech.intra.commons.IntraCourse;
+import eu.epitech.intra.commons.IntraCourseCode;
 import eu.epitech.intra.commons.IntraLocation;
 import eu.epitech.intra.commons.IntraURLBuilder;
 
 public class CourseFilterIntraURLBuilder extends IntraURLBuilder {
 	private static final String PATH = "/course/filter";
 
-	private Set<IntraCourse> courses = new TreeSet<>();
+	private Set<IntraCourseCode> courses = new TreeSet<>();
 
-	public CourseFilterIntraURLBuilder addCourse(IntraCourse course) {
+	public CourseFilterIntraURLBuilder addCourse(IntraCourseCode course) {
 		courses.add(course);
 		return this;
 	}
@@ -40,7 +40,7 @@ public class CourseFilterIntraURLBuilder extends IntraURLBuilder {
 		for (IntraLocation location : locations) {
 			parameters.add("location[]", location.toString());
 		}
-		for (IntraCourse course : courses) {
+		for (IntraCourseCode course : courses) {
 			parameters.add("course[]", course.toString());
 		}
 		for (Integer scolarYear : scolarYears) {

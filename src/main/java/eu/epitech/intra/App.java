@@ -1,18 +1,12 @@
 package eu.epitech.intra;
 
-import static eu.epitech.intra.commons.IntraCourse.BACHELOR_CLASSIC;
-import static eu.epitech.intra.commons.IntraCourse.BACHELOR_TEK1ED;
-import static eu.epitech.intra.commons.IntraCourse.BACHELOR_TEK2ED;
-import static eu.epitech.intra.commons.IntraCourse.BACHELOR_TEK3S;
-import static eu.epitech.intra.commons.IntraCourse.MASTER_CLASSIC;
-import static eu.epitech.intra.commons.IntraCourse.MASTER_TEK3SI;
-import static eu.epitech.intra.commons.IntraCourse.OTHER;
-import static eu.epitech.intra.commons.IntraCourse.SAMSUNG_WAC;
-import static eu.epitech.intra.commons.IntraCourse.WEBACADEMIE;
+import static eu.epitech.intra.commons.IntraCourseCode.BACHELOR_CLASSIC;
 import static eu.epitech.intra.commons.IntraLocation.FRANCE;
 import static eu.epitech.intra.commons.IntraLocation.FRANCE_PARIS;
 
+import java.util.Collection;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 import java.util.concurrent.Callable;
@@ -21,24 +15,30 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 import net.sf.json.JSON;
-import net.sf.json.JSONArray;
-import net.sf.json.JSONObject;
+
+import com.fasterxml.jackson.core.type.TypeReference;
+
 import eu.epitech.intra.builders.CourseACLIntraURLBuilder;
 import eu.epitech.intra.builders.CourseFilterIntraURLBuilder;
 import eu.epitech.intra.builders.ModuleBoardIntraURLBuilder;
 import eu.epitech.intra.builders.UserCompleteIntraURLBuilder;
 import eu.epitech.intra.builders.UserNotificationMissedIntraURLBuilder;
+import eu.epitech.intra.commons.IntraCourseCode;
 import eu.epitech.intra.commons.IntraURLBuilder;
 import eu.epitech.intra.commons.helpers.HttpClientHelper;
+import eu.epitech.intra.domain.IntraACL;
+import eu.epitech.intra.domain.IntraACLMember;
+import eu.epitech.intra.domain.IntraCourse;
 
 public class App {
-	public static void main(String[] args) throws Exception {
+	public static void main2(String[] args) throws Exception {
 		final CourseACLIntraURLBuilder builder = CourseACLIntraURLBuilder.newBuilder("2014", "B-ANG-050", "PAR-1-1");
-		final JSON json = HttpClientHelper.getJSONArray(builder);
-		System.out.println(json.toString(4));
+		final List<IntraACL> levels = HttpClientHelper.getResponseContentWithTypeReference(builder, new TypeReference<List<IntraACL>>() {
+		});
+		System.out.println(levels.toString());
 	}
 
-	public static void main2(String[] args) throws Exception {
+	public static void main(String[] args) throws Exception {
 		boolean execute = false;
 		if (execute) {
 			final CourseACLIntraURLBuilder builder = CourseACLIntraURLBuilder.newBuilder("2014", "B-ANG-050", "PAR-1-1");
@@ -51,75 +51,83 @@ public class App {
 			builder.addLocation(FRANCE);
 			builder.addLocation(FRANCE_PARIS);
 
-			builder.addCourse(SAMSUNG_WAC);
+			// builder.addCourse(SAMSUNG_WAC);
 			builder.addCourse(BACHELOR_CLASSIC);
-			builder.addCourse(BACHELOR_TEK1ED);
-			builder.addCourse(BACHELOR_TEK2ED);
-			builder.addCourse(BACHELOR_TEK3S);
-			builder.addCourse(MASTER_CLASSIC);
-			builder.addCourse(MASTER_TEK3SI);
-			builder.addCourse(WEBACADEMIE);
-			builder.addCourse(OTHER);
+			// builder.addCourse(BACHELOR_TEK1ED);
+			// builder.addCourse(BACHELOR_TEK2ED);
+			// builder.addCourse(BACHELOR_TEK3S);
+			// builder.addCourse(IntraCourseCode.MASTER_CLASSIC);
+			// builder.addCourse(IntraCourseCode.MASTER_TEK3SI);
+			// builder.addCourse(WEBACADEMIE);
+			// builder.addCourse(OTHER);
 
 			// builder.addScolarYear(2013);
 			builder.addScolarYear(2014);
 
 			final ExecutorService service = Executors.newFixedThreadPool(10);
-			final Map<JSONObject, Future<JSONArray>> futures = new HashMap<>();
-			final JSONArray json = HttpClientHelper.getJSONArray(builder);
-			for (int index = 0; index < json.size(); index++) {
-				final String message = String.format("%d/%d", index + 1, json.size());
-				final JSONObject object = json.getJSONObject(index);
-				final Future<JSONArray> future = service.submit(new Callable<JSONArray>() {
+			final Map<IntraCourse, Future<Collection<IntraACLMember>>> futures = new HashMap<>();
+			final List<IntraCourse> courses = HttpClientHelper.getResponseContentWithTypeReference(builder, new TypeReference<List<IntraCourse>>() {
+			});
+			int index = 0;
+			for (final IntraCourse course : courses) {
+				final String message = String.format("%d/%d", ++index, courses.size());
+				final Future<Collection<IntraACLMember>> future = service.submit(new Callable<Collection<IntraACLMember>>() {
 					@Override
-					public JSONArray call() throws Exception {
-						final String scolarYear = Integer.valueOf(object.getInt("scolaryear")).toString();
-						final String code = object.getString("code");
-						final String codeInstance = object.getString("codeinstance");
+					public Collection<IntraACLMember> call() throws Exception {
+						final String scolarYear = course.getScolarYear().toString();
+						final String code = course.getCode();
+						final String codeInstance = course.getCodeInstance();
 
-						final ThreadLocal<JSONArray> result = new ThreadLocal<>();
+						final ThreadLocal<Collection<IntraACLMember>> result = new ThreadLocal<>();
 						try {
 							result.set(fetchMembers(CourseACLIntraURLBuilder.newBuilder(scolarYear, code, codeInstance)));
 						} catch (Exception e) {
-							final String title = object.getString("title");
+							final String title = course.getTitle();
 							System.err.println(title);
 							System.err.println(String.format("https://intra.epitech.eu/module/%s/%s/%s/#!/all", scolarYear, code, codeInstance));
 						}
 
-						System.out.println(message);
+						// System.out.println(message);
 
 						return result.get();
 					}
 
-					private JSONArray fetchMembers(final CourseACLIntraURLBuilder builder) {
-						final ThreadLocal<JSONArray> result = new ThreadLocal<>();
-						final JSONArray array = HttpClientHelper.getJSONArray(builder);
-						for (int index = 0; index < array.size(); index++) {
-							JSONObject object = array.getJSONObject(index);
-							final String name = object.getString("name");
+					private Collection<IntraACLMember> fetchMembers(final CourseACLIntraURLBuilder builder) {
+						final ThreadLocal<Collection<IntraACLMember>> result = new ThreadLocal<>();
+						final List<IntraACL> acls = HttpClientHelper.getResponseContentWithTypeReference(builder, new TypeReference<List<IntraACL>>() {
+						});
+						for (IntraACL acl : acls) {
+							final String name = acl.getName();
 							if (name.startsWith("Pays")) {
 							} else if (name.startsWith("Ville")) {
 							} else if (name.startsWith("ACL")) {
-								result.set(object.getJSONArray("members"));
+								result.set(acl.getMembers());
 							} else {
 							}
 						}
+
 						return result.get();
 					}
 				});
-				futures.put(object, future);
+				futures.put(course, future);
 			}
 
-			for (Entry<JSONObject, Future<JSONArray>> entry : futures.entrySet()) {
-				final JSONObject object = entry.getKey();
-				final JSONArray members = entry.getValue().get();
-				if (members != null) {
-					object.put("acl", members);
+			for (Entry<IntraCourse, Future<Collection<IntraACLMember>>> entry : futures.entrySet()) {
+				final IntraCourse object = entry.getKey();
+				final Collection<IntraACLMember> members = entry.getValue().get();
+				boolean hasProf = false;
+				for (IntraACLMember member : members) {
+					Boolean profInstance = member.getProfInstance();
+					if (profInstance != null && profInstance.booleanValue()) {
+						hasProf = true;
+						System.out.println(String.format("%s[%s][%s] : %s", object.getTitle(), object.getCode(), object.getCodeInstance(), member.getTitle()));
+					}
+				}
+				if (!hasProf) {
+					System.out.println(String.format("%s[%s][%s] : %s", object.getTitle(), object.getCode(), object.getCodeInstance(), "???"));
 				}
 			}
 			service.shutdown();
-
-			System.out.println(json.toString(4));
 		}
 		if (execute) {
 			final IntraURLBuilder builder = ModuleBoardIntraURLBuilder.newBuilder();
