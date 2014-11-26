@@ -34,6 +34,43 @@ import eu.epitech.intra.domain.IntraUserNetsoulState;
 import eu.epitech.intra.domain.IntraUserState;
 
 public class App {
+
+	public static String fetchNetSoulState(final String login, final int count) {
+
+		final UserNetsoulStateURLBuilder builder = UserNetsoulStateURLBuilder.newBuilder(login);
+		final List<IntraUserNetsoulState> states = HttpClientHelper.getResponseContentWithTypeReference(builder, new TypeReference<List<IntraUserNetsoulState>>() {
+		});
+
+		final int size = states.size();
+		final int n = Math.min(count, size);
+
+		double timeAverage = 0.0;
+		double timeInActive = 0.0;
+		double timeInIdle = 0.0;
+		double timeOutActive = 0.0;
+		double timeOutIdle = 0.0;
+		String date = "";
+
+		for (IntraUserNetsoulState state : states.subList(size - n, size)) {
+			timeAverage += state.getTimeAverage();
+			timeInActive += state.getTimeInActive();
+			timeInIdle += state.getTimeInIdle();
+			timeOutActive += state.getTimeOutActive();
+			timeOutIdle += state.getTimeOutIdle();
+			date = state.getDateAsString();
+		}
+
+		final StringBuilder stringBuilder = new StringBuilder();
+		stringBuilder.append(String.format("%s;", login));
+		stringBuilder.append(String.format("%s;", date));
+		stringBuilder.append(String.format("%.02f;", timeAverage / new Double(n).doubleValue()));
+		stringBuilder.append(String.format("%.02f;", timeInActive / new Double(n).doubleValue()));
+		stringBuilder.append(String.format("%.02f;", timeInIdle / new Double(n).doubleValue()));
+		stringBuilder.append(String.format("%.02f;", timeOutActive / new Double(n).doubleValue()));
+		stringBuilder.append(String.format("%.02f", timeOutIdle / new Double(n).doubleValue()));
+		return stringBuilder.toString();
+	}
+
 	public static void main(String[] args) throws Exception {
 		{
 			final CourseACLIntraURLBuilder builder = CourseACLIntraURLBuilder.newBuilder("2014", "B-ANG-050", "PAR-1-1");
@@ -53,6 +90,43 @@ public class App {
 			});
 			System.out.println(states.toString());
 		}
+		{
+			System.out.println(fetchNetSoulState("lahmi_g", 7));
+		}
+		{
+			final AdminPromoListIntraURLBuilder builder = AdminPromoListIntraURLBuilder.newBuilder();
+			final List<IntraUserState> states = HttpClientHelper.getResponseContentWithTypeReference(builder, new TypeReference<List<IntraUserState>>() {
+			});
+
+			final ExecutorService service = Executors.newFixedThreadPool(10);
+			final Map<IntraUserState, Future<String>> futures = new HashMap<>();
+			final int count = 7;
+
+			int index = 0;
+			for (final IntraUserState state : states) {
+				final String message = String.format("%d/%d", ++index, states.size());
+				final Future<String> future = service.submit(new Callable<String>() {
+
+					@Override
+					public String call() throws Exception {
+						final String result = fetchNetSoulState(state.getLogin(), count);
+						System.out.println(message);
+						return result;
+					}
+				});
+				futures.put(state, future);
+			}
+
+			final StringBuilder stringBuilder = new StringBuilder();
+			for (Entry<IntraUserState, Future<String>> entry : futures.entrySet()) {
+				final IntraUserState state = entry.getKey();
+				final String informations = entry.getValue().get();
+				stringBuilder.append(String.format("%s\n", informations));
+			}
+			service.shutdown();
+			System.out.println(stringBuilder.toString());
+		}
+
 	}
 
 	public static void main1(String[] args) throws Exception {
