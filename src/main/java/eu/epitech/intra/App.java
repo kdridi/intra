@@ -18,27 +18,36 @@ import net.sf.json.JSON;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 
+import eu.epitech.intra.builders.AdminPromoListIntraURLBuilder;
 import eu.epitech.intra.builders.CourseACLIntraURLBuilder;
 import eu.epitech.intra.builders.CourseFilterIntraURLBuilder;
 import eu.epitech.intra.builders.ModuleBoardIntraURLBuilder;
 import eu.epitech.intra.builders.UserCompleteIntraURLBuilder;
 import eu.epitech.intra.builders.UserNotificationMissedIntraURLBuilder;
-import eu.epitech.intra.commons.IntraCourseCode;
 import eu.epitech.intra.commons.IntraURLBuilder;
 import eu.epitech.intra.commons.helpers.HttpClientHelper;
 import eu.epitech.intra.domain.IntraACL;
 import eu.epitech.intra.domain.IntraACLMember;
 import eu.epitech.intra.domain.IntraCourse;
+import eu.epitech.intra.domain.IntraUserState;
 
 public class App {
-	public static void main2(String[] args) throws Exception {
-		final CourseACLIntraURLBuilder builder = CourseACLIntraURLBuilder.newBuilder("2014", "B-ANG-050", "PAR-1-1");
-		final List<IntraACL> levels = HttpClientHelper.getResponseContentWithTypeReference(builder, new TypeReference<List<IntraACL>>() {
-		});
-		System.out.println(levels.toString());
+	public static void main(String[] args) throws Exception {
+		{
+			final CourseACLIntraURLBuilder builder = CourseACLIntraURLBuilder.newBuilder("2014", "B-ANG-050", "PAR-1-1");
+			final List<IntraACL> levels = HttpClientHelper.getResponseContentWithTypeReference(builder, new TypeReference<List<IntraACL>>() {
+			});
+			System.out.println(levels.toString());
+		}
+		{
+			final AdminPromoListIntraURLBuilder builder = AdminPromoListIntraURLBuilder.newBuilder();
+			final List<IntraUserState> states = HttpClientHelper.getResponseContentWithTypeReference(builder, new TypeReference<List<IntraUserState>>() {
+			});
+			System.out.println(states.toString());
+		}
 	}
 
-	public static void main(String[] args) throws Exception {
+	public static void main1(String[] args) throws Exception {
 		boolean execute = false;
 		if (execute) {
 			final CourseACLIntraURLBuilder builder = CourseACLIntraURLBuilder.newBuilder("2014", "B-ANG-050", "PAR-1-1");

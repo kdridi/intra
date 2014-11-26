@@ -1,0 +1,12 @@
+// Epitech JSON webservice ...
+{
+	"login":"combe_a",
+	"title":"Anton Combe",
+	"course_code":"bachelor\/classic",
+	"semester":"B1",
+	"location":"FR\/PAR",
+	"school_code":"epitech",
+	"course":"bachelor",
+	"cycle":"bachelor",
+	"credits":0
+}
