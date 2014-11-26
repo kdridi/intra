@@ -23,12 +23,14 @@ import eu.epitech.intra.builders.CourseACLIntraURLBuilder;
 import eu.epitech.intra.builders.CourseFilterIntraURLBuilder;
 import eu.epitech.intra.builders.ModuleBoardIntraURLBuilder;
 import eu.epitech.intra.builders.UserCompleteIntraURLBuilder;
+import eu.epitech.intra.builders.UserNetsoulStateURLBuilder;
 import eu.epitech.intra.builders.UserNotificationMissedIntraURLBuilder;
 import eu.epitech.intra.commons.IntraURLBuilder;
 import eu.epitech.intra.commons.helpers.HttpClientHelper;
 import eu.epitech.intra.domain.IntraACL;
 import eu.epitech.intra.domain.IntraACLMember;
 import eu.epitech.intra.domain.IntraCourse;
+import eu.epitech.intra.domain.IntraUserNetsoulState;
 import eu.epitech.intra.domain.IntraUserState;
 
 public class App {
@@ -42,6 +44,12 @@ public class App {
 		{
 			final AdminPromoListIntraURLBuilder builder = AdminPromoListIntraURLBuilder.newBuilder();
 			final List<IntraUserState> states = HttpClientHelper.getResponseContentWithTypeReference(builder, new TypeReference<List<IntraUserState>>() {
+			});
+			System.out.println(states.toString());
+		}
+		{
+			final UserNetsoulStateURLBuilder builder = UserNetsoulStateURLBuilder.newBuilder("lahmi_g");
+			final List<IntraUserNetsoulState> states = HttpClientHelper.getResponseContentWithTypeReference(builder, new TypeReference<List<IntraUserNetsoulState>>() {
 			});
 			System.out.println(states.toString());
 		}
